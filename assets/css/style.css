@@ -55,13 +55,14 @@ body {
   font-size: 1em;
 }
 
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #282938;
+  color: #332f3b;
   font-family: "Poppins", sans-serif;
   line-height: 1.4;
 }
@@ -341,10 +342,10 @@ a:focus {
 p {
   font-family: "Roboto", sans-serif;
   color: #554d63;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 500;
   margin-bottom: 15px;
-  line-height: 1.4;
+  line-height: 1.8;
 }
 
 img {
@@ -988,8 +989,8 @@ img {
 
 .home-banner-area .banner-content h1 {
   color: #fff;
-  font-size: 3.5em;
-  line-height: 1.3em;
+  font-size: 2.5em;
+  line-height: 1em;
   margin-bottom: 0;
 }
 
@@ -997,7 +998,7 @@ img {
   padding: 25px 0 30px;
   color: #fff;
   opacity: 0.9;
-  font-size: 1.2rem;
+  font-size: 16Spx;
 }
 
 .home-banner-area .banner-content .banner-img {
@@ -1105,12 +1106,15 @@ img {
 
 
 .home-banner-area.banner-type-two .cta-btn .btn-solid {
+  padding: .8rem 2rem;
+  font-size: 1rem;
   background: #FCD980;
   color: #1B1C2B;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .home-banner-area.banner-type-two .cta-btn .btn-light {
+  font-size: 1rem;
   margin-left: 2rem;
   background: none;
   color: white;
@@ -4553,7 +4557,7 @@ img {
   height: 100%;
 }
 
-.project-details-area .widget-area .gallery-item .gallery-content {
+.project-details-area .widget-area .gallery-item .gallery-content{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -4580,6 +4584,60 @@ img {
   transition-delay: 0s;
 }
 
+.project-details-area .ghover .gallery-item .gallery-content{
+  
+  position: relative;
+  width: 55%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+  opacity: 0;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.project-details-area .ghover .gallery-item .gallery-content h2{
+  font-size: 16px;
+  position: absolute;
+  top: 18rem;
+  left: .5rem;
+  padding: 0;
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  color: #fff;
+}
+.project-details-area .ghover .gallery-item .gallery-content h2 p{
+  opacity: .8;
+  color: #fff;
+}
+.ghover .gallery-item .gallery-content h2 a{
+  font-size: 16px;
+  background: none;
+}
 
 .project-details-area .widget-area .gallery-item .gallery-content h2 {
   font-size: 16px;
@@ -4595,14 +4653,45 @@ img {
   transition-delay: 0s;
   color: #fff;
 }
+.project-details-area .ghover .gallery-item .gallery-content h2 {
+  font-size: 16px;
+  -webkit-transform: translateX(50px);
+  transform: translateX(50px);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  color: #fff;
+}
+.project-details-area .ghover .gallery-item{
+  background: url(../img/banner/banner_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
 
 .project-details-area .widget-area .gallery-item .gallery-content h2 a {
   color: #FCD980;
   background: none;
   font-weight: lighter;
 }
+.project-details-area .ghover .gallery-item .gallery-content h2 a {
+  color: #FCD980;
+  background: none;
+  font-weight: lighter;
+}
 
 .project-details-area .widget-area .gallery-item:hover .gallery-content {
+  opacity: 1;
+  background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+
+}
+.ghover .gallery-item:hover .gallery-content {
   opacity: 1;
   background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
 
