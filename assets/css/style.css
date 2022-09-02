@@ -2075,37 +2075,16 @@ img {
 /*================================================
   Faq Area CSS
 =================================================*/
-.faq-section {
-  position: relative;
-  overflow: hidden;
-  background: url("../img/background/faq_bg.png") no-repeat;
-  background-size: cover;
-  background-position-x: 50%;
-  z-index: 1;
+
+.faq-section .row .col-lg-6 .row .section-title h2{
+  font-size: 1.8rem;
+}
+.faq-section .row .col-lg-6 .row .section-title a{
+ color: #2405F2;
 }
 
-.faq-section::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: url(../img/resource/abstract_shape_1.png) no-repeat;
-  z-index: -1;
-  left: -10%;
-  top: 10%;
-}
 
-.faq-section::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: url(../img/resource/abstract_shape_1.png) no-repeat;
-  z-index: -1;
-  right: -10%;
-  bottom: 0;
-  background-position: 100% 100%;
-}
+
 
 .faq-section .panel-group .panel {
   border-radius: 5px;
@@ -4612,7 +4591,9 @@ img {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+
 .project-details-area .ghover .gallery-item .gallery-content h2{
+  width: 23rem;
   font-size: 16px;
   position: absolute;
   top: 18rem;
@@ -4629,6 +4610,9 @@ img {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   color: #fff;
+}
+.project-details-area .ghover .gallery-item .gallery-content h2 .webflow{
+font-size: 1.5rem;
 }
 .project-details-area .ghover .gallery-item .gallery-content h2 p{
   opacity: .8;
@@ -4670,6 +4654,7 @@ img {
 .project-details-area .ghover .gallery-item{
   background: url(../img/banner/banner_1.png);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;

@@ -16,6 +16,22 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  .project-details-area .ghover{
+    width: 100%;
+    height: 50rem;
+
+    
+  }
+  .faq-section .row .col-lg-6 .row .section-title h2{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .faq-section .row .col-lg-6{
+   
+    width: 100%;
+    text-align: center;
+  }
   body {
     font-size: 14px;
   }
@@ -448,6 +464,13 @@
     margin-top: 100px;
     width: 80%;
   }
+  .faq-section .row .col-lg-6 .row .section-title h2{
+    font-size: 1rem;
+    width: 100%;
+  }
+  .faq-section .row .col-lg-6 .row .section-title {
+    text-align: center;
+  }
   .faq-section .row {
     padding-top: 30px;
   }
@@ -857,8 +880,18 @@
   .team-slider .owl-dots {
     margin-top: 0 !important;
   }
+  .project-details-area .container .head h2{
+    font-size: 1.3rem;
+    
+  }
   .project-details-area .widget-area [class*='col-']:last-child .gallery-item {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
+  }
+  .project-details-area .ghover .gallery-item .gallery-content{
+    width: 100%;
+  }
+  .project-details-area .ghover .gallery-item{
+    margin-bottom: 2rem;
   }
   .project-details-area .project-details-content img {
     margin-bottom: 0;
