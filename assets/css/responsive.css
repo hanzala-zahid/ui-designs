@@ -26,6 +26,7 @@
     font-size: 1.5rem;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
   }
   .faq-section .row .col-lg-6{
    
@@ -524,6 +525,7 @@
   .comingsoon-section .comingsoon-box #timer {
     padding-bottom: 15px;
   }
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

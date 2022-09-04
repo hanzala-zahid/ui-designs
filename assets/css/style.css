@@ -152,24 +152,24 @@ h6 {
   color: #6610f2;
 }
 
-.btn-solid {
+/* .btn-solid {
   color: #fff;
   -webkit-box-shadow: 0 0 40px 40px #6610f2 inset;
   box-shadow: 0 0 40px 40px #6610f2 inset;
   border: 1px solid transparent;
   border-radius: 5px;
-}
+} */
 
 
 
 
-.btn-solid:hover {
+/* .btn-solid:hover {
   border: 1px solid #fff;
   background: transparent;
   color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
+} */
 
 .btn-outline {
   background: transparent;
@@ -204,6 +204,7 @@ button:focus {
   height: 68px;
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
+  background: transparent;
 }
 
 .form-control:focus {
@@ -418,7 +419,7 @@ img {
 }
 
 .bg-thin {
-  background-color: #fcfcfc !important;
+  background-color: #fff !important;
 }
 
 .bg-tertiary {
@@ -933,6 +934,9 @@ img {
 .navbar-area.nav-style-two.stickyadd {
   background: #1C1E53;
 }
+.navbar-area.nav-style-two{
+  background:#1C1E53 !important ;
+}
 
 .navbar-area.nav-style-two.stickyadd .cta-btn .btn-outline {
   border: 1px solid #fff;
@@ -1242,21 +1246,7 @@ img {
   overflow: hidden;
   z-index: 1;
   padding-bottom: 120px;
-  padding-top: 210px;
-}
-
-.page-title-area::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background: url("../img/background/page_title_bg.png");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
+  padding-top:10rem;
 }
 
 .page-title-area .shape span {
@@ -2650,73 +2640,39 @@ img {
 .pricing-section {
   position: relative;
   overflow: hidden;
-  background: -webkit-gradient(linear, left bottom, left top, from(#5f09ea), to(#823be8));
-  background: linear-gradient(0deg, #5f09ea 0%, #823be8 100%);
+  background:  #E5E5E5;
   z-index: 1;
 }
 
-.pricing-section::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: url(../img/resource/abstract_shape_1.png) no-repeat;
-  z-index: -1;
-  left: -10%;
-  top: 10%;
-}
 
-.pricing-section::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: url(../img/resource/abstract_shape_1.png) no-repeat;
-  z-index: -1;
-  right: -10%;
-  bottom: 0;
-  background-position: 100% 100%;
+.pricing-section .section-title .price_header h2{
+  color: #282938;
+}
+.pricing-section .section-title .price_header p{
+  color: #282938;
+  opacity: 70%;
 }
 
 .pricing-section .pricing-item-single {
   position: relative;
-  background: #fff;
+  background:#F4F6FC;
   border-radius: 1em;
   padding: 0 3em 2em;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0 2px 25px 0 rgba(106, 99, 119, 0.1);
-  box-shadow: 0 2px 25px 0 rgba(106, 99, 119, 0.1);
+
 }
 
 .pricing-section .pricing-item-single .pricing-item-content {
   position: relative;
   width: 100%;
-  -webkit-transform: translateY(-22%);
-  transform: translateY(-22%);
   text-align: center;
   text-transform: capitalize;
+
 }
 
-.pricing-section .pricing-item-single .pricing-item-content .content-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: 1em;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
-.pricing-section .pricing-item-single .pricing-item-content .content-text h2 {
-  color: #fff;
-}
-
-.pricing-section .pricing-item-single .pricing-item-content .content-text span {
-  color: #fff;
-}
-
-.pricing-section .pricing-item-single .pricing-item-content .content-text p {
-  color: #fff;
-  font-size: 14px;
+.pricing-section .pricing-item-single .pricing-item-content .content-text .royalBlue{
+  color: #2405F2;
 }
 
 .pricing-section .pricing-item-single .pricing-item-content .content-text span.label {
@@ -2749,32 +2705,31 @@ img {
   padding-inline-end: 22px;
   color: #20c997;
 }
-
-.pricing-section .pricing-item-single .pricing-item-list .btn-solid:hover {
-  color: #6610f2;
-  border: 1px solid #6610f2;
+.pricing-section .pricing-item-single .pricing-item-list .btn-solid{
+  color: #fff;
+ background-color: #282938;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#multi-design{
+  margin: 0 1rem;
+}
+#multi-design:hover{
+  color: #fff !important;
+  border:1px solid #fff !important;
 }
 
-.pricing-section [class*="col-"]:nth-child(2) {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.pricing-section .pricing-item-single .pricing-item-list .btn-solid:hover {
+  color: #282938 !important;
+  border: 1px solid #282938 !important;
+  background-color: transparent !important;
 }
 
 .pricing-section.pricing-single {
   background: none;
 }
 
-.pricing-section.pricing-single::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: url("../img/background/feature_bg.png") no-repeat center;
-  background-size: contain;
-  z-index: -1;
-}
+
 
 /*================================================
   Video Area CSS
@@ -4071,6 +4026,10 @@ img {
 /*================================================
   Contact Area CSS
 =================================================*/
+.contact-section{
+overflow-x: hidden;
+}
+
 .contact-section .contact-widget {
   background-color: #fff;
   padding: 30px 30px 20px;
@@ -4078,6 +4037,9 @@ img {
   -webkit-box-shadow: 0 0 20px -2px rgba(106, 99, 119, 0.1);
   box-shadow: 0 0 20px -2px rgba(106, 99, 119, 0.1);
   margin-bottom: 20px;
+}
+.contact-section .section-title{
+  margin-top: 3rem !important;
 }
 
 .contact-section .contact-widget .info-title {
@@ -4104,41 +4066,30 @@ img {
 }
 
 .contact-section .btn-solid {
-  -webkit-box-shadow: 0 0 40px 40px #5a49f8 inset;
-  box-shadow: 0 0 40px 40px #5a49f8 inset;
-  border-radius: 5px;
+ background: #282938;
+ color: #F4F6FC;
 }
 
 .contact-section .btn-solid:hover {
-  color: #5a49f8;
-  border: 1px solid #5a49f8;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
+border: 1px solid #282938;
+color: #282938;
+background-color: transparent;
 
+}
 .contact-section .btn.disabled {
   opacity: 1;
 }
 
-.contact-section .contact-map {
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0;
-  border: none;
-}
 
-.contact-section .contact-map iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  border: 0;
-}
+
+
 
 #contactForm {
-  padding-bottom: 60px;
+  padding: 3.5rem 4.5rem;
+  background-color: #F4F6FC;
+  width: 100%;
+  margin: auto !important;
+  margin-bottom: 5rem;
 }
 
 #contactForm .help-block ul li {
@@ -4154,6 +4105,9 @@ img {
 /*================================================
   Footer Area CSS
 =================================================*/
+.footer-area{
+  background-color:  #1C1E53;
+}
 .footer-area .footer-widget {
   margin-bottom: 2em;
 }
@@ -4163,94 +4117,25 @@ img {
   margin-top: -10px;
   padding: 0;
 }
-
-.footer-area .footer-widget h5 {
-  text-transform: capitalize;
-  margin-bottom: 25px;
+.mail-call-info{
+  background-color: #FCD980;
 }
-
-.footer-area .footer-widget p {
-  margin-bottom: 20px;
+.mail-call-info b{
+  color: #282938;
 }
-
-.footer-area .footer-widget .footer-quick-links {
-  padding: 0;
-  list-style-type: none;
-}
-
-.footer-area .footer-widget .footer-quick-links li {
-  position: relative;
-  margin-bottom: 15px;
-  -webkit-padding-start: 25px;
-  padding-inline-start: 25px;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 300ms;
-  transition-duration: 300ms;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-
-.footer-area .footer-widget .footer-quick-links li::before {
-  content: "\e900";
-  position: absolute;
-  left: 0;
-  font-family: "Envy-Icon";
-  font-size: 10px;
-}
-
-.footer-area .footer-widget .footer-quick-links li:hover {
-  -webkit-transform: translateX(5px);
-  transform: translateX(5px);
-}
-
-.footer-area .footer-widget .footer-quick-links li:hover a {
-  color: #5a49f8;
-}
-
-.footer-area .footer-widget .footer-quick-links li:hover::before {
-  color: #5a49f8;
-}
-
-.footer-area .footer-widget .contact-info {
-  position: relative;
-  -webkit-padding-start: 30px;
-  padding-inline-start: 30px;
-  margin-bottom: 20px;
-}
-
-.footer-area .footer-widget .contact-info p {
-  display: inline;
-}
-
-.footer-area .footer-widget .contact-info i {
-  position: absolute;
-  left: 0;
-  font-size: 1.2em;
-  color: #5a49f8;
-  top: 9px;
-}
-
 /*================================================
   Copy-right Area CSS
 =================================================*/
-.copy-right-area {
-  background: #efefef;
-  padding: 1.9em 0;
-  text-align: center;
-  border-top: 1px solid rgba(25, 25, 25, 0.15);
+.footer-links{
+ padding-top: 2rem;
 }
-
-.copy-right-area .copy-right-content p {
-  margin-bottom: 0;
+.footer-links .row ul li{
+  list-style: none;
 }
-
-.copy-right-area .copy-right-content a {
-  color: #6610f2;
+.footer-links .row ul li a:hover{
+  font-weight: bold;
+  color: #1C1E53;
 }
-
 /*================================================
   Faq Area CSS
 =================================================*/
