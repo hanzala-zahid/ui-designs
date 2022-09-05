@@ -51,7 +51,7 @@ This files table contents are outlined below>>>>>
 body {
   font-family: "Poppins", sans-serif;
   color: #6a6377;
-  background: #f5f5f5;
+  background: #fff;
   font-size: 1em;
 }
 
@@ -636,9 +636,9 @@ img {
   border-radius: 5px;
 }
 
-.navbar-area .main-nav .navbar .search-item {
+/* .navbar-area .main-nav .navbar .search-item {
   margin: 0 15px;
-}
+} */
 
 .navbar-area .main-nav nav .navbar-nav .nav-item {
   padding: 0;
@@ -671,7 +671,7 @@ img {
   width: 100%;
 }
 
-.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
+/* .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
@@ -690,7 +690,7 @@ img {
   transition-timing-function: ease-in-out;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-}
+} */
 
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item {
   position: relative;
@@ -723,7 +723,7 @@ img {
   opacity: 0;
 }
 
-.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-toggle::after {
+/* .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-toggle::after {
   content: "\e900";
   position: absolute;
   right: 16px;
@@ -737,13 +737,13 @@ img {
   transition-timing-function: ease-in-out;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-}
+} */
 
-.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-toggle:hover::after {
+/* .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-toggle:hover::after {
   -webkit-transform: rotateZ(90deg);
   transform: rotateZ(90deg);
-}
-
+} */
+/* 
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu a {
   font-size: 15px;
   font-weight: 400;
@@ -751,7 +751,7 @@ img {
   padding: 9px 15px;
   margin: 0;
   display: block;
-}
+} */
 
 .navbar-area .main-nav nav .navbar-nav .dropdown-menu .nav-item a:hover::before {
   width: 0;
@@ -797,11 +797,11 @@ img {
   display: block;
 }
 
-.search-item .search-overlay {
+/* .search-item .search-overlay {
   display: none;
-}
+} */
 
-.search-item .search-popup {
+/* .search-item .search-popup {
   position: absolute;
   top: 100%;
   width: 300px;
@@ -811,13 +811,13 @@ img {
   padding: 16px 10px;
   -webkit-box-shadow: 0 10px 15px rgba(51, 47, 59, 0.1);
           box-shadow: 0 10px 15px rgba(51, 47, 59, 0.1);
-}
+} */
 
-.search-item .search-popup .search-form {
+/* .search-item .search-popup .search-form {
   position: relative;
-}
+} */
 
-.search-item .search-popup .search-form .search-input {
+/* .search-item .search-popup .search-form .search-input {
   display: block;
   width: 100%;
   height: 50px;
@@ -835,7 +835,7 @@ img {
           transition-timing-function: ease-in-out;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
-}
+} */
 
 .search-item .search-popup .search-form .search-input:focus {
   border-color: #6610f2;
@@ -1308,7 +1308,7 @@ img {
 
 .page-title-area .page-title-content h1 {
   margin-bottom: 0;
-  color: #fff;
+  color: #282938;
 }
 
 .page-title-area .page-title-content ul {
@@ -2066,13 +2066,28 @@ img {
   Faq Area CSS
 =================================================*/
 
+
+
+.faq-section .row .panel-group{
+  
+  width: 100%;
+  text-align: left;
+ 
+}
 .faq-section .row .col-lg-6 .row .section-title h2{
   font-size: 1.8rem;
+  width: 100%;
+  text-align: left;
+ 
 }
 .faq-section .row .col-lg-6 .row .section-title a{
- color: #2405F2;
-}
 
+  width: 100%;
+  text-align: left;
+  color: #2405F2;
+
+ 
+}
 
 
 
@@ -2416,7 +2431,7 @@ img {
   bottom: 0;
   text-align: center;
   padding: 1em;
-  border-radius: 20px;
+  /* border-radius: 0.5em 0.5em 0 0; */
   background: #fff;
 }
 
@@ -2446,8 +2461,8 @@ img {
   transition-timing-function: ease-in-out;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-  -webkit-transform: rotateZ(5deg) scale(1.1);
-  transform: rotateZ(5deg) scale(1.1);
+  /* -webkit-transform: rotateZ(5deg) scale(1.1);
+  transform: rotateZ(5deg) scale(1.1); */
 }
 
 .team-section .team-item:hover .team-content {
@@ -2460,7 +2475,7 @@ img {
 }
 
 .team-section .team-slider .owl-dots .owl-dot {
-  background: #5a49f8;
+  background: #282938;
 }
 
 
@@ -4016,6 +4031,48 @@ background-color: transparent;
   margin-bottom: 0;
 }
 /*================================================
+  portfolio Area CSS
+=================================================*/
+.portfolio-head{
+  padding-top: 8rem;
+  
+  background-color: #F4F6FC;
+  height: 26rem;
+  
+}
+.portfolio-head .section-title-for-portfolio .social-link a{
+ color: #282938;
+}
+
+.portfolio-section .portfolio-links .scrollmenu {
+  text-align: center;
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 0;
+  
+}
+
+.portfolio-section .portfolio-links .scrollmenu a {
+  display: inline-block;
+  color: #282938;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.portfolio-section .portfolio-links .scrollmenu a:hover {
+ color: #2405F2;
+}
+.portfolio-section .portfolio-links .scrollmenu a:active {
+ color: #2405F2;
+}
+.build{
+  background: none !important;
+}
+
+
+
+/*================================================
   Privacy policy Area CSS
 =================================================*/
 .privacy-policy-area .privacy-policy-content img {
@@ -4785,6 +4842,7 @@ font-size: 1.5rem;
   }
   .navbar-area .mobile-nav.mean-container a.meanmenu-reveal {
     padding-top: 5px;
+    color: #fff;
   }
   .navbar-area .mobile-nav.mean-container a.meanmenu-reveal span {
     height: 3px;

@@ -19,8 +19,6 @@
   .project-details-area .ghover{
     width: 100%;
     height: 50rem;
-
-    
   }
   .faq-section .row .col-lg-6 .row .section-title h2{
     font-size: 1.5rem;
@@ -28,11 +26,15 @@
     text-align: center;
     margin: 0 auto;
   }
-  .faq-section .row .col-lg-6{
-   
+  .faq-section .row .col-lg-6 .row{
+    
+  }
+  .faq-section .row .col-lg-6 .row .section-title a{
+   margin-top: 1rem;
     width: 100%;
     text-align: center;
   }
+ 
   body {
     font-size: 14px;
   }
@@ -176,6 +178,16 @@
   }
   .top-feature-section {
     padding-bottom: 30px;
+  }
+  .top-feature-section .col-lg-6 .section-title h2{
+    width: 100%;
+    text-align: center;
+    
+  }
+  .top-feature-section .col-lg-6 .section-title p{
+    width: 100%;
+    text-align: center;
+    
   }
   .top-feature-section .cta-btn {
     margin-bottom: 30px;
