@@ -7,27 +7,27 @@ jQuery(function($) {
     });
 
     // Sticky Nav
-    $(window).on('scroll', function() {
-        $(window).scrollTop() >= 100 ?
-        $('.navbar-area').addClass('stickyadd') :
-        $('.navbar-area').removeClass('stickyadd');
-    });
+    // $(window).on('scroll', function() {
+    //     $(window).scrollTop() >= 100 ?
+    //     $('.navbar-area').addClass('stickyadd') :
+    //     $('.navbar-area').removeClass('stickyadd');
+    // });
 
     // Smooth Scrolling
-    $('a.nav-link').on('click', function(e) {
-        var $this = $(this);
-        $('html, body')
-        .stop()
-        .animate({
-            scrollTop: $($this.attr('href')).offset().top - 60,
-        }, 1000 );
-        e.preventDefault();
-    });
+    // $('a.nav-link').on('click', function(e) {
+    //     var $this = $(this);
+    //     $('html, body')
+    //     .stop()
+    //     .animate({
+    //         scrollTop: $($this.attr('href')).offset().top - 60,
+    //     }, 1000 );
+    //     e.preventDefault();
+    // });
 
     // Search Popup
-    $('.search-btn').on('click', function() {
-        $('.search-popup').toggle(300);
-    });
+    // $('.search-btn').on('click', function() {
+    //     $('.search-popup').toggle(300);
+    // });
 
     // Popup Video
     $('.youtube-popup').magnificPopup({

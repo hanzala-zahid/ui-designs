@@ -296,8 +296,8 @@
     margin-bottom: 30px;
   }
   .testimonial .owl-carousel .slider-item {
-    background: -webkit-gradient(linear, left bottom, left top, from(#00a2f3), to(#62e1fb));
-    background: linear-gradient(0deg, #00a2f3 0%, #62e1fb 100%);
+   
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
     padding: 40px 16px;
     height: 100%;
     -webkit-box-pack: start;
@@ -885,7 +885,7 @@
     color: #fff;
   }
   .client-section .owl-carousel .slider-item .client .client-info span {
-    color: #eaeaea;
+    color: #fff;
     font-size: 14px;
   }
   .client-section .section-title {
