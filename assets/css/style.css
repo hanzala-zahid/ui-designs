@@ -4696,6 +4696,18 @@ font-size: 1.5rem;
 }
 
 /*================================================
+  use client first section
+=================================================*/
+.use-client-first-section .row .col-lg-6 .section-title, p{
+  width: 100%;
+  text-align: left;
+}
+.use-client-first-section .row{
+  display: flex;
+  align-items: center;
+}
+
+/*================================================
   Owl-carousel Area CSS
 =================================================*/
 .owl-carousel {
