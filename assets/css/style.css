@@ -4708,6 +4708,59 @@ font-size: 1.5rem;
 }
 
 /*================================================
+  use client 2nd section
+=================================================*/
+
+.use-client-scnd-section{
+  background: #F4F6FC;
+  margin-top: 8.3rem;
+
+}
+.use-client-scnd-section .row .col-lg-6 .section-title, p{
+  width: 100%;
+  text-align: left;
+}
+.use-client-scnd-section .row{
+  display: flex;
+  align-items: center;
+}
+
+/*================================================
+  use client third section
+=================================================*/
+.use-client-thrd-section .row .col-lg-6 .section-title, p{
+  width: 100%;
+  text-align: left;
+}
+.use-client-thrd-section .row{
+  display: flex;
+  align-items: center;
+}
+
+/*================================================
+  use client 4th section
+=================================================*/
+
+.use-client-fourth-section{
+  background: rgba(252, 217, 128, 0.1);
+  margin-top: 8.3rem;
+  
+
+}
+.use-client-fourth-section .row .col-lg-6 .section-title, p{
+  width: 100%;
+  text-align: left;
+}
+.use-client-scnd-section .row{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+/*================================================
   Owl-carousel Area CSS
 =================================================*/
 .owl-carousel {
