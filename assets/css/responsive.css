@@ -16,6 +16,10 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  .use-client-first-section{
+    width: auto !important;
+    text-align: center;
+  }
   .use-client-first-section .row .col-lg-6 .section-title, p, h2{
     width: auto !important;
     text-align: center;
