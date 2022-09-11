@@ -151,26 +151,6 @@ h6 {
 .btn-text-only:hover {
   color: #1C1E53;
 }
-
-/* .btn-solid {
-  color: #fff;
-  -webkit-box-shadow: 0 0 40px 40px #6610f2 inset;
-  box-shadow: 0 0 40px 40px #6610f2 inset;
-  border: 1px solid transparent;
-  border-radius: 5px;
-} */
-
-
-
-
-/* .btn-solid:hover {
-  border: 1px solid #fff;
-  background: transparent;
-  color: #fff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-} */
-
 .btn-outline {
   background: transparent;
   border: 1px solid #1C1E53;
@@ -723,36 +703,6 @@ img {
   opacity: 0;
 }
 
-/* .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-toggle::after {
-  content: "\e900";
-  position: absolute;
-  right: 16px;
-  font-family: "Envy-Icon";
-  font-size: 10px;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 300ms;
-  transition-duration: 300ms;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-} */
-
-/* .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-toggle:hover::after {
-  -webkit-transform: rotateZ(90deg);
-  transform: rotateZ(90deg);
-} */
-/* 
-.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu a {
-  font-size: 15px;
-  font-weight: 400;
-  text-transform: capitalize;
-  padding: 9px 15px;
-  margin: 0;
-  display: block;
-} */
-
 .navbar-area .main-nav nav .navbar-nav .dropdown-menu .nav-item a:hover::before {
   width: 0;
 }
@@ -796,46 +746,6 @@ img {
 .search-item .search-btn .close-btn.active {
   display: block;
 }
-
-/* .search-item .search-overlay {
-  display: none;
-} */
-
-/* .search-item .search-popup {
-  position: absolute;
-  top: 100%;
-  width: 300px;
-  right: calc(100% - 16px);
-  margin-top: 32px;
-  background: #fff;
-  padding: 16px 10px;
-  -webkit-box-shadow: 0 10px 15px rgba(51, 47, 59, 0.1);
-          box-shadow: 0 10px 15px rgba(51, 47, 59, 0.1);
-} */
-
-/* .search-item .search-popup .search-form {
-  position: relative;
-} */
-
-/* .search-item .search-popup .search-form .search-input {
-  display: block;
-  width: 100%;
-  height: 50px;
-  line-height: initial;
-  border: 1px solid #eeeeee;
-  color: #111111;
-  outline: 0;
-  padding-top: 4px;
-  padding-left: 10px;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 300ms;
-          transition-duration: 300ms;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-} */
 
 .search-item .search-popup .search-form .search-input:focus {
   border-color: #1C1E53;
@@ -3083,212 +2993,6 @@ img {
   background: linear-gradient(0deg, #2c31ff 0%, #a8aaf1 100%);
 }
 
-/*================================================
-  Testimonial Area CSS
-=================================================*/
-/* .testimonial {
-  position: relative;
-  z-index: 1;
-}
-
-.testimonial .section-title {
-  margin-bottom: 0;
-}
-
-.testimonial .shape .shape-inner {
-  position: absolute;
-  width: auto;
-  height: auto;
-  z-index: -1;
-}
-
-.testimonial .shape .shape-inner:first-child {
-  left: 20%;
-  -webkit-animation: moveleftbounce 5s linear infinite;
-  animation: moveleftbounce 5s linear infinite;
-}
-
-.testimonial .shape .shape-inner:nth-child(2) {
-  left: 10%;
-  top: 40%;
-  width: 15px;
-  -webkit-animation: heartBeat 5s linear infinite;
-  animation: heartBeat 5s linear infinite;
-}
-
-.testimonial .shape .shape-inner:nth-child(3) {
-  left: 15%;
-  width: 18px;
-  -webkit-animation: rotateme 5s linear infinite;
-  animation: rotateme 5s linear infinite;
-}
-
-.testimonial .shape .shape-inner:nth-child(4) {
-  right: 20%;
-  top: 65%;
-  width: 12px;
-  -webkit-animation: animationFramesOne 5s linear infinite;
-  animation: animationFramesOne 5s linear infinite;
-}
-
-.testimonial .shape .shape-inner:nth-child(5) {
-  right: 10%;
-  top: 30%;
-  -webkit-animation: rotateme 5s linear infinite;
-  animation: rotateme 5s linear infinite;
-}
-
-.testimonial .shape .shape-inner:last-child {
-  right: 30%;
-  bottom: 10%;
-  -webkit-animation: moveleftbounce 5s linear infinite;
-  animation: moveleftbounce 5s linear infinite;
-}
-
-.testimonial .owl-dots .owl-dot {
-  background: #5a49f8;
-}
-
-.testimonial-section {
-  position: relative;
-  overflow: hidden;
-}
-
-.testimonial-section .tesimonial-grid {
-  position: relative;
-  display: -ms-grid;
-  display: grid;
-  background: url(../img/resource/abstract_shape_2.png) no-repeat;
-  background-size: 60%;
-  background-position: 50%, 50%;
-      grid-template-areas: "a1 slider c1" "a2 slider c2" "a3 slider c3";
-  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  place-items: center;
-}
-
-.testimonial-section .overlay-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.testimonial-section .dot {
-  width: 142px;
-  height: 142px;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
-  cursor: pointer;
-}
-
-.testimonial-section .dot img {
-  border-radius: 50%;
-  width: 86px;
-  height: 86px;
-}
-
-.testimonial-section .dot:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: a1;
-}
-
-.testimonial-section .dot:nth-child(2) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: a2;
-  place-self: start;
-}
-
-.testimonial-section .dot:nth-child(3) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: a3;
-}
-
-.testimonial-section .dot:nth-child(4) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: c1;
-}
-
-.testimonial-section .dot:nth-child(5) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: c2;
-  place-self: end;
-}
-
-.testimonial-section .dot:nth-child(6) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-  grid-area: c3;
-}
-
-.testimonial-section .testimonial-slider {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 2;
-  grid-area: slider;
-  place-self: stretch;
-}
-
-.testimonial-section .slider-item {
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  height: 576px;
-}
-
-.testimonial-section .slider-item .qoute-icon {
-  margin-bottom: 20px;
-}
-
-.testimonial-section .slider-item .inner-text p {
-  font-size: 18px;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-.testimonial-section .slider-item .client .client-img img {
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  margin: auto;
-  margin-bottom: 1em;
-}
-
-.testimonial-section .slider-item .client .client-info h6 {
-  margin: 0;
-  color: #fff;
-}
-
-.testimonial-section .slider-item .client .client-info span {
-  color: #eaeaea;
-  font-size: 14px;
-} */
-
-/*================================================
-  Client Area CSS
-=================================================*/
-
 
 /*================================================
   Partner Area CSS
@@ -4756,9 +4460,75 @@ font-size: 1.5rem;
   align-items: center;
 }
 
+/*===============================================
+about us page css
+=================================================*/
+
+.main-about{
+  margin-top: 13.7rem;
+  margin-bottom: 8rem;
+}
+.intro-section{
+  background: #F4F5F5;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
+.main_img{
+  margin-bottom: 8rem;
+}
+/* ======================= our processes section================= */
+.dotAndline .symblz .dot{
+  height: 20px;
+  width: 20px;
+  background: #2405F2;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.dotAndline .symblz .line{
+border-top: 3px dashed #2405F2;
+width: 224px;
+opacity: 40%;
+height: 2px;
+margin-left: 0.7rem;
+}
+/* ======================= our processes section end================= */
+
+/* ======================our mission section======================= */
+.mission{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: #EEF4FA;
+}
+
+/* ======================our mission section end======================= */
 
 
+/* -----------work with us section---------- */
+.workWithUs{
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+.workWithUs .gray-bg{
+  background: #F4F6FC;
+  padding: 3rem 0.2rem;
+}
 
+/* -----------work with us section end---------- */
+
+/* =====================================
+Our Team section
+========================================*/
+.ourTeam{
+  background: #F4F6FC;
+  padding: 8rem 4rem;
+}
+
+
+/* =====================================
+Our Team section end
+========================================*/
 
 /*================================================
   Owl-carousel Area CSS
