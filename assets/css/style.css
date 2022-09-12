@@ -4473,9 +4473,7 @@ about us page css
 }
 .intro-section{
   background: #F4F5F5;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-
+  padding: 5rem 5rem 4rem 4rem;
 }
 .main_img{
   margin-bottom: 8rem;
@@ -4500,8 +4498,8 @@ margin-left: 0.7rem;
 
 /* ======================our mission section======================= */
 .mission{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background: #EEF4FA;
 }
 

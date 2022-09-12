@@ -16,6 +16,19 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  /* about us  start*/
+  .main-about{
+    margin-top: 13.7rem;
+    margin-bottom: 8rem;
+  }
+  .intro-section{
+    background: #F4F5F5;
+    padding: 3rem 3rem 1rem 1rem;
+  }
+  .main_img{
+    margin-bottom: 8rem;
+  }
+  /* about us end */
   .use-client-first-section{
     width: auto !important;
     text-align: center;
