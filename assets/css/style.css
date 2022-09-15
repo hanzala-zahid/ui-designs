@@ -3607,9 +3607,11 @@ background-color: transparent;
 }
 .mail-call-info{
   background-color: #FCD980;
+  text-align: left;
 }
-.mail-call-info b{
+.mail-call-info b,p{
   color: #282938;
+  text-align: left;
 }
 /*================================================
   Copy-right Area CSS
@@ -3679,18 +3681,26 @@ background-color: transparent;
 
 .portfolio-section .portfolio-links .scrollmenu a {
   display: inline-block;
-  color: #282938;
+  color: #6e6d7a;
   text-align: center;
   padding: 14px;
   text-decoration: none;
 }
 
 .portfolio-section .portfolio-links .scrollmenu a:hover {
- color: #2405F2;
+  
+ color: black;
+ font-weight: 500;
 }
-.portfolio-section .portfolio-links .scrollmenu a:active {
- color: #2405F2;
+.portfolio-section .portfolio-links .scrollmenu .active {
+  background-color: rgba(13,12,34,0.05);
+  padding: 4px 10px;
+  border-radius: 8px;
+ color: black;
+ font-weight: 500;
 }
+
+
 .build{
   background: none !important;
 }

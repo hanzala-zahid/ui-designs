@@ -16,6 +16,9 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  /* read-case-study page starts */
+  
+  /* read-case-study page end */
   /* about us  start*/
   .main-about{
     margin-top: 13.7rem;
@@ -406,6 +409,17 @@
   .footer-area .footer-widget {
     margin-bottom: 1.5em;
   }
+  .footer-area .footer-widget h2{
+    margin-top: 2rem;
+  }
+  .footer-area .footer-widget p {
+    text-align: left;
+  }
+  .footer-area .footer-widget .navbar-brand a img {
+    
+   float: left !important;
+   
+  }
   .blockquote {
     padding: 2em 1em !important;
   }
@@ -751,8 +765,8 @@
     padding-bottom: 50px;
   }
   .testimonial .owl-carousel .slider-item {
-    background: -webkit-gradient(linear, left bottom, left top, from(#00a2f3), to(#62e1fb));
-    background: linear-gradient(0deg, #00a2f3 0%, #62e1fb 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(90, 73, 248, 0.7)), to(rgba(107, 91, 249, 0.5)));
+  background: linear-gradient(0deg, rgba(90, 73, 248, 0.7) 20%, rgba(107, 91, 249, 0.5) 100%);
     padding: 40px 16px;
     height: 100%;
     -webkit-box-pack: start;
