@@ -10,7 +10,34 @@
    
     <!-- title -->
     <title>Uidesigns</title>
-
+ <!-- Start of Async Drift Code -->
+ <script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('patgpbphktxr');
+  </script>
+  <!-- End of Async Drift Code -->
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- fontawesome CSS -->
@@ -55,50 +82,53 @@
       </a>
     </div>
 
-    <!-- Menu for desktop device-->
-    <div class="main-nav">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/img/logos/logo.svg" alt="logo_light" />
-            <img src="assets/img/logos/logo.svg" alt="logo-dark" />
-          </a>
-          <div
-            class="collapse navbar-collapse mean-menu"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link active">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="about us.html" class="nav-link">About us</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Features</a>
-              </li>
-              <li class="nav-item">
-                <a href="pricing.html" class="nav-link">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a href="#faq" class="nav-link">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a href="blog.html" class="nav-link">Blog</a>
-              </li>
-            </ul>
-
-            <div class="cta-btn">
-              <a href="contact us.html" class="btn btn-outline rounded-pill">
-                Contact us
-              </a>
+      <!-- Menu for desktop device-->
+      <div class="main-nav">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logos/logo.svg" alt="logo_light" />
+              <img src="assets/img/logos/logo.svg" alt="logo-dark" />
+            </a>
+            <div
+              class="collapse navbar-collapse mean-menu"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about us.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./features.html" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a href="pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./about us.html#our-team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index.html#blog" class="nav-link">Blog</a>
+                </li>
+              </ul>
+  
+              <div class="cta-btn">
+                <a href="contact us.html" class="btn btn-outline rounded-pill">
+                  Let's talk
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- end header area -->
+        </nav>
+      </div>
+    </header>
+    <!-- end header area -->
  
     
     <!-- end page title area -->
@@ -303,38 +333,37 @@
                       <a href="index.html">
                           <img class="mb-3" src="assets/img/logos/logo.svg" alt="image" />
                       </a>
-                      <p class="w-50 text-white opacity-75 text-start">Grursus mal suada faci Lorem to the ipsum dolarorit more ame tion more consectetu.</p>
-                  
-
-              </div>
-
-              <div class="mail-call-info w-75 row ">
-                <div class="col-lg-6 pt-3 pb-0">
-                <b>Email me at</b>
-                <p class="text-start">uidesigns@gmail.com</p>
-
-              </div>
-              <div class="col-lg-6 pt-3 pb-0">
-                <b>Call/Whatsapp us
-                </b>
-                <p class="text-start">123467890</p>
-
-              </div>
-
-              </div>
-          </div>
-          <div class="col-lg-6 col-md-5 col-sm-6 col-12">
-              <div class="footer-widget">
-                  <h2 class="text-white text-start">Lets Talk!</h2>
-                  
-                      <p class="w-75 text-white opacity-75 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Dolores quod id fuga quaerat, architecto sit.</p>
+                      <p class="w-50 text-white opacity-75 text-start">
+                        We are always open to discuss your project and improve your online presence.
+                      </p>
+                    </div>
+      
+                    <div class="mail-call-info w-75 row">
+                      <div class="col-lg-6 pt-3 pb-0">
+                        <b>Email me at</b>
+                        <p class="text-start">uidesigns@gmail.com</p>
+                      </div>
+                      <div class="col-lg-6 pt-3 pb-0">
+                        <b>Call/Whatsapp us </b>
+                        <p class="text-start">123467890</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-5 col-sm-6 col-12">
+                    <div class="footer-widget">
+                      <h2 class="text-white text-start">Lets Talk!</h2>
+      
+                      <p class="w-75 text-white opacity-75 text-start">
+                        We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.
+                      </p>
                   
                     <div class="social-link">
                       <a href="#" class=" fs-6" target="_blank"><i class="fab fa-facebook-f"></i></a>
                       <a href="#" class=" fs-6" target="_blank"><i class="fab fa-twitter"></i></a>
                       <a href="#" class=" fs-6" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                      <a href="#" class=" fs-6" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="#" class="fs-6" target="_blank"
+                    ><i class="fab fa-skype"></i
+                  ></a>
                   </div>
               </div>
           </div>
@@ -343,30 +372,22 @@
 </div>
 
 <div class="footer-links">
-<div class="container">
-<div class="row">
-  <div class="col-lg-4">
-  <div class="copyright">
-    <p class="text-center text-lg-start"> <b>Copyright &copy; 2022 </b> Uidesigns.com</p>
+  <div class="container">
+    <div class="row">
+      
+      <div class="copyright">
+        <p class="text-center w-100"> <b>Copyright &copy; 2022 </b> uidesignz.com</p>
+      </div>
+      </div>
+      
   </div>
+  
   </div>
-  <div class=" d-none d-lg-block col-lg-8">
-  <ul class="d-flex align-items-center justify-content-around">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About us</a></li>
-    <li><a href="#">Features</a></li>
-    <li><a href="#">Pricing</a></li>
-    <li><a href="#">FAQ</a></li>
-    <li><a href="#">Blog</a></li>
-  </ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</footer>
-<!-- end footer area -->
+  
+  
+  </footer>
+  <!-- end footer area -->
+  
 
 
 

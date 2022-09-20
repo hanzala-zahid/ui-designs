@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +11,34 @@
    
     <!-- title -->
     <title>Uidesigns</title>
+    <!-- Start of Async Drift Code -->
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('patgpbphktxr');
+  </script>
+  <!-- End of Async Drift Code -->
 
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -75,22 +104,25 @@
                 <a href="about us.html" class="nav-link">About us</a>
               </li>
               <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Features</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="./features.html" class="nav-link">Features</a>
               </li>
               <li class="nav-item">
                 <a href="pricing.html" class="nav-link">Pricing</a>
               </li>
               <li class="nav-item">
-                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="./about us.html#our-team" class="nav-link">Team</a>
               </li>
               <li class="nav-item">
-                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="#blog" class="nav-link">Blog</a>
               </li>
             </ul>
 
             <div class="cta-btn">
               <a href="contact us.html" class="btn btn-outline rounded-pill">
-                Contact us
+                Let's talk
               </a>
             </div>
           </div>
@@ -110,8 +142,7 @@
             <div class="banner-content">
               <h1>Building stellar websites for early startups</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+                We create culture-defining brands and digital experiences that elevate brands to achieve immense growth.
               </p>
               <div class="cta-btn">
                 <a href="./contact us.html" class="btn btn-solid rounded-pill">Let's talk</a>
@@ -139,13 +170,12 @@
             <div class="section-title">
               <h2>How we work</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do
-                eiusmod tempor.
+                Uidesignz is driven by technology and data in addition to design and content to fulfill its primary mission of assisting clients in achieving success.
               </p>
 
               
               <div class="cta-btn">
-                <a href="about.html" class="btn-light d-flex align-items-center" style="color: #2405f2; background: none; font-size: 1rem;"
+                <a href="./contact us.html" class="d-flex align-items-center" style="color: #2405f2; background: none; font-size: 1rem;"
                   >Get in touch with us &nbsp;<i class="envy envy-right-arrow"></i
                 ></a>
               </div>
@@ -161,8 +191,7 @@
                     <img src="./assets/img/work/pointer 1.svg" />
                     <h3 style="color: #282938" class="mt-3">Strategy</h3>
                     <p>
-                      Euismod faucibus turpis eu gravida mi. Pellentesque et
-                      velit aliquam .
+                      We design scalable and cost-effective solutions by analyzing our customers' demands in-depth.
                     </p>
                   </div>
                 </div>
@@ -185,8 +214,7 @@
                     <img src="./assets/img/work/pointer 3.svg" />
                     <h3 style="color: #282938" class="mt-3">Design</h3>
                     <p>
-                      Euismod faucibus turpis eu gravida mi. Pellentesque et
-                      velit aliquam .
+                      We produce sophisticated and user-friendly digital content in order to create an exceptional user experience.
                     </p>
                   </div>
                 </div>
@@ -197,8 +225,7 @@
                     <img src="./assets/img/work/pointer 4.svg" />
                     <h3 style="color: #282938" class="mt-3">Development</h3>
                     <p>
-                      Euismod faucibus turpis eu gravida mi. Pellentesque et
-                      velit aliquam .
+                      We develop efficient solutions to help your company reach prospects across the web.
                     </p>
                   </div>
                 </div>
@@ -215,9 +242,9 @@
      <!-- start project details area -->
      <section class="project-details-area ptb-100 bg-thin">
         <div class="container">
-          <div class="head d-flex align-items-center justify-content-between">
+          <div class="head d-flex align-items-center justify-content-between" style="margin-bottom: 2.5rem;">
           <h2>View our projects</h2>
-          <a href="#">View More <i class="envy envy-right-arrow"></i></a>
+          <a href="./portfolio.html">View More <i class="envy envy-right-arrow"></i></a>
         </div>
             <div class="row d-flex w-100">
                 
@@ -226,10 +253,10 @@
                   
                   <div class="gallery-content">
                     <h2>
-                     <div class="webflow"> Workhub office Webflow <br> Webflow  Design</div><br>
-                      <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                     <div class="webflow text-start"> Workhub office Webflow <br> Webflow  Design</div><br>
+                      <p class="w-75 text-start">Our workflow is not ordinary, nor are we or the brands we help develop.</p>
                        
-                      <a href="#" class="btn-light mt-4 d-flex align-items-center">View Pricing <i class="envy envy-right-arrow"></i></a>
+                      <a href="./contact us.html" class="mt-4 d-flex align-items-center">Let' talk &nbsp; <i class="envy envy-right-arrow"></i></a>
                     </h2>
                 </div>
                 </div>
@@ -249,7 +276,7 @@
                                           <h2>
                                             Unisaas Website <br>
                                             Design <br>
-                                            <a href="#" class="btn-light mt-3 d-flex align-items-center">View Pricing <i class="envy envy-right-arrow"></i></a>
+                                            <a href="./contact us.html" class="mt-3 d-flex align-items-center">Let's talk &nbsp;<i class="envy envy-right-arrow"></i></a>
                                           </h2>
                                       </div>
                                     </div>
@@ -263,7 +290,7 @@
                                             <h2>
                                               Unisaas Website <br>
                                               Design <br>
-                                              <a href="#" class="btn-light mt-3 d-flex align-items-center">View Pricing <i class="envy envy-right-arrow"></i></a>
+                                              <a href="./contact us.html" class="mt-3 d-flex align-items-center">Let's talk &nbsp;<i class="envy envy-right-arrow"></i></a>
                                             </h2>
                                         </div>
                                     </div>
@@ -290,15 +317,14 @@
          
         </div>
         <div class="row pt-70">
-          <div class="col-lg-4 col-md-6 col-sm-12 pb-70">
+          <div class="col-lg-4 col-md-6 col-sm-12 pb-70" style="height: 20rem;">
             <div class="item-single">
               
               <div class="item-content text-left">
                 <img src="./assets/img/icons/user.svg" alt="">
                 <h6 class="text-left"><a href="services.html">Uses Client First</a></h6>
                 <p>
-                  Strategy experience and analytical expertise combine to
-                  enable. Strate great experience.
+                  Utheme is committed to elevating clients to the next level through in-house industry experience. We promote solid client relationships and pay special attention to your goals while simultaneously inspiring you.
                 </p>
                
               </div>
@@ -306,14 +332,13 @@
             <!-- item-single -->
           </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-12 ">
+          <div class="col-lg-4 col-md-6 col-sm-12 h-25" style="height: 20rem;">
             <div class="item-single">
               <div class="item-content">
                 <img src="./assets/img/icons/check.svg" alt="">
                 <h6><a href="services.html">Two Free Revision Round</a></h6>
                 <p>
-                  Strategy experience and analytical expertise combine to
-                  enable. Strate great experience.
+                  Your research may disclose fresh insights, and you may frequently need to revise your designs.
                 </p>
                
               </div>
@@ -328,8 +353,7 @@
                 <img src="./assets/img/icons/ruler-pen.svg" alt="">
                 <h6><a href="services.html">Template Customization</a></h6>
                 <p>
-                  Strategy experience and analytical expertise combine to
-                  enable. Strate great experience.
+                  Good design extends beyond the visual aspect. It encompasses the total consumer experience.
                 </p>
                 
               </div>
@@ -344,8 +368,7 @@
                 <img src="./assets/img/icons/chat.svg" alt="">
                 <h6><a href="services.html">24/7 Support</a></h6>
                 <p>
-                  Strategy experience and analytical expertise combine to
-                  enable. Strate great experience.
+                  We recognize that problems can develop anytime, anywhere, and under any circumstance. Hence, our professionals are available 24 hours a day, seven days a week, to provide a hand in fostering an excellent client-customer relationship.
                 </p>
                 
               </div>
@@ -360,8 +383,7 @@
                 <img src="./assets/img/icons/stop watch.svg" alt="">
                 <h6><a href="#">Quick Delivery</a></h6>
                 <p>
-                  Strategy experience and analytical expertise combine to
-                  enable. Strate great experience.
+                  We recognize the value of time and strive to offer quality items within a reasonable timeframe.
                 </p>
               
               </div>
@@ -376,8 +398,7 @@
                 <img src="./assets/img/icons/file.svg" alt="">
                 <h6><a href="services.html">Hands-on approach</a></h6>
                 <p>
-                  Strategy experience and analytical expertise combine to
-                  enable. Strate great experience.
+                  We are a full-service digital marketing agency with great satisfaction in delivering exceptional results through our hands-on approach to providing the services you require when you need them.
                 </p>
                 
               </div>
@@ -397,7 +418,7 @@
               <div class="col-lg-6">
                 <div class="section-title">
                   <h2 >What People Say <br> About Us</h2>
-                  <p class="w-50">Does any industry face a more complex audience journey and marketing sales process than B2B technology. Does any industry face a more complex audience?</p>
+                  <p class="w-50">View what our customers have to say about us. It is crucial for us. We will evaluate it no matter how excellent or awful it is so that we can improve Uidesignz.</p>
               </div>
               </div>
               <div class="col-lg-6">
@@ -415,7 +436,7 @@
                                   <img src="assets/img/testimonial/woman-in-collared-shirt-774909.png" alt="client-1" />
                               </div>
                               <div class="client-info">
-                                  <h6>David McLean</h6>
+                                  <h6 class="m-0">David McLean</h6>
                                   <span>CEO & Manager</span>
                               </div>
                           </div>
@@ -491,7 +512,7 @@
             <div class="container">
                 
                 <div class="row">
-                  <div class="col-lg-6 col-sm-12">
+                  <div class="col-lg-5 col-sm-12">
                     <div class="row w-100">
                       <div class="section-title">
                         <h2>Frequently asked <br> questions</h2>
@@ -499,7 +520,7 @@
                     </div>
                     </div>
                 </div>
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-7 col-sm-12">
                         <div class="panel-group" id="accordion">
                             <!-- Start Single Item -->
                             <div class="panel">
@@ -513,8 +534,7 @@
                                 <div id="collapse1" class="collapse show" data-bs-parent="#accordion">
                                     <div class="panel-body">
                                         <p>
-                                            Se one of the world’s largest IT Service Providers, our deep pool of over 130 certified engineers and IT support staff is ready to help. Se one of the world’s largest IT Service Providers, our
-                                            deep pool of over 130 certified engineers .
+                                          It will take time, depending on how time-intensive the project will be.  Rest assured, we will undoubtedly complete the project before the anticipated deadline.
                                         </p>
                                     </div>
                                 </div>
@@ -607,13 +627,13 @@
         <div class="row">
           <div class="col-lg-6 left-img-col">
             <div class="section-title">
-              <h2 class="text-white w-100 text-left">Building stellar <br> websites for <br> early startups</h2>
-              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
+              <h2 class="text-white w-100 text-left">Developing innovative digital solutions</h2>
+              <p class="text-white">Our digital solutions leverage data to segment people by demographics or interests to uncover the holy grail.</p>
             </div>
           </div>
           <div class="col-lg-6 right-form-col">
             <h3 class="text-white mt-4">Send Inquiry</h3>
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <p class="text-white">Contact us if you have any inquiries regarding our digital marketing services.</p>
             <form>
               <div class="row">
                   <div class="col-sm-12">
@@ -636,9 +656,9 @@
 
               </div>
               <div class="cta-btn">
-                  <button type="submit" class="btn btn-solid">sign up</button>
+                  <button type="submit" class="btn btn-solid" style="border-radius: 4px;">sign up</button>
                 </div>
-                <a href="about.html" class="btn-light d-flex align-items-center justify-content-center mt-4 text-white" >Get in touch with us &nbsp;<i class="envy envy-right-arrow"></i></a>
+                <a href="./contact us.html" class="d-flex align-items-center justify-content-center mt-4 text-white" >Get in touch with us &nbsp;<i class="envy envy-right-arrow"></i></a>
              
              
           </form>
@@ -735,6 +755,8 @@
   </section>
   <!--end blog section-->
 
+
+
   
    <!-- start footer area -->
    <footer class="footer-main">
@@ -747,7 +769,7 @@
                         <a href="index.html">
                             <img class="mb-3" src="assets/img/logos/logo.svg" alt="image" />
                         </a>
-                        <p class="w-50 text-white opacity-75 text-start">Grursus mal suada faci Lorem to the ipsum dolarorit more ame tion more consectetu.</p>
+                        <p class="w-50 text-white opacity-75 text-start">We are always open to discuss your project and improve your online presence.</p>
                     
 
                 </div>
@@ -755,13 +777,13 @@
                 <div class="mail-call-info w-75 row ">
                   <div class="col-lg-6 pt-3 pb-0">
                   <b>Email me at</b>
-                  <p class="text-start">uidesigns@gmail.com</p>
+                  <p class="text-start">contact@uidesignz.com</p>
 
                 </div>
                 <div class="col-lg-6 pt-3 pb-0">
                   <b>Call/Whatsapp us
                   </b>
-                  <p class="text-start">123467890</p>
+                  <p class="text-start"></p>
 
                 </div>
 
@@ -771,14 +793,15 @@
                 <div class="footer-widget">
                     <h2 class="text-white text-start">Lets Talk!</h2>
                     
-                        <p class="w-75 text-white opacity-75 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Dolores quod id fuga quaerat, architecto sit.</p>
+                        <p class="w-75 text-white opacity-75 text-start">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
                     
                       <div class="social-link">
                         <a href="#" class=" fs-6" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class=" fs-6" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a href="#" class=" fs-6" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class=" fs-6" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="fs-6" target="_blank"
+                        ><i class="fab fa-skype"></i
+                      ></a>
                     </div>
                 </div>
             </div>
@@ -789,25 +812,16 @@
   <div class="footer-links">
 <div class="container">
   <div class="row">
-    <div class="col-lg-4">
+    
     <div class="copyright">
-      <p class="text-center text-lg-start"> <b>Copyright &copy; 2022 </b> Uidesigns.com</p>
+      <p class="text-center w-100"> <b>Copyright &copy; 2022 </b> uidesignz.com</p>
     </div>
     </div>
-    <div class=" d-none d-lg-block col-lg-8">
-    <ul class="d-flex align-items-center justify-content-around">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
-  </div>
+    
 </div>
+
 </div>
-</div>
-  </div>
+
 
 </footer>
 <!-- end footer area -->

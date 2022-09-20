@@ -2010,7 +2010,7 @@ img {
 
 .faq-section .panel-group .panel .panel-heading {
   padding: 0;
-  background: #fcfcfc;
+  background: #f3f3f3;
   position: relative;
 }
 
@@ -2637,6 +2637,7 @@ img {
 }
 .service-section .item-single {
   position: relative;
+  height: 20rem;
   margin-bottom: 30px;
   padding: 3em 2em;
   background-color: #ffffff;
@@ -3054,7 +3055,7 @@ img {
   text-transform: capitalize;
   padding: 0.6em 2em;
   margin-bottom: 10px;
-  background: #6610f2;
+  background: #282938;
   display: inline-block;
   -webkit-box-shadow: 0 34px 54px rgba(120, 2, 155, 0.001);
   box-shadow: 0 34px 54px rgba(120, 2, 155, 0.001);
@@ -3067,7 +3068,7 @@ img {
 }
 
 .blog-item-single .blog-item-content a:hover h3 {
-  color: #6610f2;
+  color: #282938;
 }
 
 .blog-item-single .blog-item-content h3 {
@@ -4328,8 +4329,9 @@ font-size: 1.5rem;
 =================================================*/
 .go-top {
   position: fixed;
+  /* margin-bottom: 20rem; */
   top: 50%;
-  right: 2%;
+  right: 2.5%;
   opacity: 0;
   cursor: pointer;
   text-decoration: none;
@@ -4350,7 +4352,7 @@ font-size: 1.5rem;
 }
 
 .go-top.active {
-  top: 95%;
+  top: 87%;
   -webkit-transform: translateY(-95%);
   transform: translateY(-95%);
   opacity: 1;

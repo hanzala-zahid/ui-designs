@@ -7,10 +7,63 @@
       name="description"
       content="Author: HiBootstrap Theme, Category: IT, Multipurpose, HTML, SASS"
     />
-   
+
     <!-- title -->
     <title>Uidesigns</title>
+    <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
 
+      !(function () {
+        var t = (window.driftt = window.drift = window.driftt || []);
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              "identify",
+              "config",
+              "track",
+              "reset",
+              "debug",
+              "show",
+              "ping",
+              "page",
+              "hide",
+              "off",
+              "on",
+            ]),
+            (t.factory = function (e) {
+              return function () {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function (e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function (t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement("script");
+              (o.type = "text/javascript"),
+                (o.async = !0),
+                (o.crossorigin = "anonymous"),
+                (o.src =
+                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            });
+        }
+      })();
+      drift.SNIPPET_VERSION = "0.3.1";
+      drift.load("patgpbphktxr");
+    </script>
+    <!-- End of Async Drift Code -->
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <!-- fontawesome CSS -->
@@ -30,10 +83,6 @@
     <!-- responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
     <!-- jquery link -->
-    
-    
-
-   
 
     <!-- favicon -->
     <link
@@ -45,182 +94,325 @@
   </head>
 
   <body>
-   <!-- Start header Area -->
-   <header class="navbar-area nav-style-two">
-    <!-- menu for mobile device -->
-    <div class="mobile-nav">
-      <a href="../index.html" class="logo">
-        <img src="../assets/img/logos/logo.svg" alt="logo" />
-        <img src="../assets/img/logos/logo.svg" alt="logo" />
-      </a>
+    <!-- Start header Area -->
+    <header class="navbar-area nav-style-two">
+      <!-- menu for mobile device -->
+      <div class="mobile-nav">
+        <a href="../index.html" class="logo">
+          <img src="../assets/img/logos/logo.svg" alt="logo" />
+          <img src="../assets/img/logos/logo.svg" alt="logo" />
+        </a>
+      </div>
+
+      <!-- Menu for desktop device-->
+      <div class="main-nav">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="../assets/img/logos/logo.svg" alt="logo_light" />
+              <img src="../assets/img/logos/logo.svg" alt="logo-dark" />
+            </a>
+            <div
+              class="collapse navbar-collapse mean-menu"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="../index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../about us.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../features.html" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../about us.html#our-team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../index.html#blog" class="nav-link">Blog</a>
+                </li>
+              </ul>
+
+              <div class="cta-btn">
+                <a
+                  href="../contact us.html"
+                  class="btn btn-outline rounded-pill"
+                >
+                  Let's talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header area -->
+
+    <div class="page-title-area bg-thin">
+      <div class="container">
+        <div class="page-title-content d-flex width-100 align-items-start">
+          <p class="mb-0 text-start">Web design and development</p>
+          <h2 class="text-start">Movie Streem Mobile App Design</h2>
+          <p class="w-75 text-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse.
+          </p>
+        </div>
+        <div class="target-img w-100">
+          <img
+            class="w-100"
+            src="../assets/img/portfolio/All/all6.jpg"
+            alt=""
+          />
+          <div class="row mt-4">
+            <div class="col-lg-4 col-md-6">
+              <p class="mb-0 text-start">Client</p>
+              <h5>facebook.com</h5>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <p class="mb-0 text-start">Service</p>
+              <h5>Product Design</h5>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <p class="mb-0 text-start">Deliverable</p>
+              <h5>UI Screens, UX Flow & Prototype</h5>
+            </div>
+          </div>
+          <hr />
+        </div>
+
+        <div class="privacy-policy mt-5 w-75 m-auto">
+          <h1 class="h1">About the project</h1>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+          <img
+            class="w-100"
+            src="../assets/img/portfolio/Group 2508.png"
+            alt=""
+          />
+          <h1 class="h1 mt-5">How we do it</h1>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <!-- Menu for desktop device-->
-    <div class="main-nav">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="../assets/img/logos/logo.svg" alt="logo_light" />
-            <img src="../assets/img/logos/logo.svg" alt="logo-dark" />
-          </a>
-          <div
-            class="collapse navbar-collapse mean-menu"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="../index.html" class="nav-link active">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="../about us.html" class="nav-link">About us</a>
-              </li>
-              <li class="nav-item">
-                <a href="../portfolio.html" class="nav-link">Features</a>
-              </li>
-              <li class="nav-item">
-                <a href="../pricing.html" class="nav-link">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a href="#faq" class="nav-link">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a href="../blog.html" class="nav-link">Blog</a>
-              </li>
-            </ul>
-
-            <div class="cta-btn">
-              <a href="../contact us.html" class="btn btn-outline rounded-pill">
-                Contact us
-              </a>
+     <!-- tools used section start -->
+     <div class="tools-section pt-5 pb-5" style="background-color: #F4F6FC;">
+      <div class="container">
+        <h1 class="text-center mb-5">Tools we use</h1>
+        
+  
+        <div class=" mb-5 w-75 row" style="margin: 0 auto;">
+          <div class=" col-lg-4 col-sm-6 mb-4">
+            <div
+              class=" text-center"
+            >
+              <figure class="mb-0">
+                <img
+                  width="64"
+                  height="64"
+                  alt=""
+                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/FIGMA.svg"
+                  class="lazyloaded"
+                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/FIGMA.svg"
+                  loading="lazy"
+                />
+              </figure>
+              <p class="text-center">Figma</p>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-sm-6 mb-4">
+            <div
+              class=" text-center"
+            >
+              <figure class="mb-0">
+                <img
+                  width="64"
+                  height="64"
+                  alt=""
+                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/SKETCH.svg"
+                  class="lazyloaded"
+                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/SKETCH.svg"
+                  loading="lazy"
+                />
+              </figure>
+              <p class="text-center">Sketch</p>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div
+              class="text-center"
+            >
+              <figure class="mb-0">
+                <img
+                  width="64"
+                  height="64"
+                  alt=""
+                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/MOQUPS-1.svg"
+                  class="lazyloaded"
+                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/MOQUPS-1.svg"
+                  loading="lazy"
+                />
+              </figure>
+              <p class="text-center">Moqups</p>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div
+              class="text-center"
+            >
+              <figure class="mb-0">
+                <img
+                  width="64"
+                  height="64"
+                  alt=""
+                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/XD.svg"
+                  class="lazyloaded"
+                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/XD.svg"
+                  loading="lazy"
+                />
+              </figure>
+              <p class="text-center">Adobe XD</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div
+              class="text-center"
+            >
+              <figure class="mb-0">
+                <img
+                  width="64"
+                  height="64"
+                  alt=""
+                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/PS.svg"
+                  class="lazyloaded"
+                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/PS.svg"
+                  loading="lazy"
+                />
+              </figure>
+              <p class="text-center">Adobe Photoshop</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div
+              class="text-center"
+            >
+              <figure class="mb-0">
+                <img
+                  width="64"
+                  height="64"
+                  alt=""
+                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/AI.svg"
+                  class="lazyloaded"
+                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/AI.svg"
+                  loading="lazy"
+                />
+              </figure>
+              <p class="text-center">Adobe sIllustrator</p>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
     </div>
-  </header>
-  <!-- end header area -->
- 
-    <div class="page-title-area bg-thin">
+      <!-- tools used section end -->
+
+    <!-- start footer area -->
+    <footer class="footer-main">
+      <div class="footer-area pt-70 text-white">
         <div class="container">
-            <div class="page-title-content d-flex width-100 align-items-start">
-                <p class="mb-0 text-start">Web design and development</p>
-                <h2 class="text-start">Movie Streem Mobile App Design</h2>
-               <p class="w-75 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-            </div>
-            <div class="target-img w-100">
-                <img class="w-100" src="../assets/img/portfolio/All/all6.jpg" alt="">
-                <div class="row mt-4">
-                    <div class="col-lg-4 col-md-6">
-                        <p class="mb-0 text-start">Client</p>
-                        <h5>facebook.com</h5>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <p class="mb-0 text-start">Service</p>
-                        <h5>Product Design</h5>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <p class="mb-0 text-start">Deliverable</p>
-                        <h5>UI Screens, UX Flow & Prototype</h5>
-                    </div>
-                </div>
-                <hr>
-            </div>
-        
-        <div class="privacy-policy mt-5 w-75 m-auto">
-            <h1 class="h1">About the project</h1>
-            <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <img class="w-100" src="../assets/img/portfolio/Group 2508.png" alt="">
-            <h1 class="h1 mt-5">How we do it</h1>
-            <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        </div>
-    </div>
-    
-
-
-
-
-    
-  <!-- start footer area -->
-  <footer class="footer-main">
-    <div class="footer-area pt-70  text-white">
-    <div class="container">
-        <div class="row ">
+          <div class="row">
             <div class="col-lg-6 col-md-5 col-sm-6 col-12">
-                <div class="footer-widget text-start">
-                   
-                        <a href="../index.html">
-                            <img class="mb-3" src="../assets/img/logos/logo.svg" alt="image" />
-                        </a>
-                        <p class="w-50 text-white opacity-75 text-start">Grursus mal suada faci Lorem to the ipsum dolarorit more ame tion more consectetu.</p>
-                    
+              <div class="footer-widget text-start">
+                <a href="../index.html">
+                  <img
+                    class="mb-3"
+                    src="../assets/img/logos/logo.svg"
+                    alt="image"
+                  />
+                </a>
+                <p class="w-50 text-white opacity-75 text-start">
+                  We are always open to discuss your project and improve your online presence.
+                </p>
+              </div>
 
-                </div>
-
-                <div class="mail-call-info w-75 row ">
-                  <div class="col-lg-6 pt-3 pb-0">
+              <div class="mail-call-info w-75 row">
+                <div class="col-lg-6 pt-3 pb-0">
                   <b>Email me at</b>
                   <p class="text-start">uidesigns@gmail.com</p>
-
                 </div>
                 <div class="col-lg-6 pt-3 pb-0">
-                  <b>Call/Whatsapp us
-                  </b>
+                  <b>Call/Whatsapp us </b>
                   <p class="text-start">123467890</p>
-
                 </div>
-
-                </div>
+              </div>
             </div>
             <div class="col-lg-6 col-md-5 col-sm-6 col-12">
-                <div class="footer-widget">
-                    <h2 class="text-white text-start">Lets Talk!</h2>
-                    
-                        <p class="w-75 text-white opacity-75 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Dolores quod id fuga quaerat, architecto sit.</p>
-                    
-                      <div class="social-link">
-                        <a href="#" class=" fs-6" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class=" fs-6" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class=" fs-6" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class=" fs-6" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </div>
+              <div class="footer-widget">
+                <h2 class="text-white text-start">Lets Talk!</h2>
+
+                <p class="w-75 text-white opacity-75 text-start">
+                  We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.
+                </p>
+                <div class="social-link">
+                  <a href="#" class="fs-6" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="fs-6" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" class="fs-6" target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" class="fs-6" target="_blank"
+                    ><i class="fab fa-skype"></i
+                  ></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-  </div>
-
-  <div class="footer-links">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-4">
-    <div class="copyright">
-      <p class="text-center text-lg-start"> <b>Copyright &copy; 2022 </b> Uidesigns.com</p>
-    </div>
-    </div>
-    <div class=" d-none d-lg-block col-lg-8">
-    <ul class="d-flex align-items-center justify-content-around">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
-  </div>
-</div>
-</div>
-</div>
-  </div>
-
-</footer>
-<!-- end footer area -->
-
-
-
-
+      </div>
+      <div class="footer-links">
+        <div class="container">
+          <div class="row">
+            <div class="copyright">
+              <p class="text-center w-100">
+                <p class="text-center w-100"> <b>Copyright &copy; 2022 </b> uidesignz.com</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer area -->
 
     <!-- jequery JS -->
     <script src="../assets/js/jquery.min.js"></script>
