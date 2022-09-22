@@ -82,6 +82,7 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/gallery.css" />
     <!-- jquery link -->
 
     <!-- favicon -->
@@ -153,74 +154,45 @@
       </div>
     </header>
     <!-- end header area -->
+    <!-- gallery section start -->
+    <div class="container">
+      <h1>Easy Eat App Design</h1>
 
-    <div class="page-title-area bg-thin">
-      <div class="container">
-        <div class="page-title-content d-flex width-100 align-items-start">
-          <p class="mb-0 text-start">Web design and development</p>
-          <h2 class="text-start">VPN Mobile App Design</h2>
-          <p class="w-100 text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse.
-          </p>
-        </div>
-        <div class="target-img w-100">
-          <img
-            class="w-100"
-            src="../assets/img/portfolio/mobile app/app3.jpg"
-            alt=""
-          />
-
-          <div class="row mt-4">
-            <div class="col-lg-4 col-md-6">
-              <p class="mb-0 text-start">Client</p>
-              <h5>facebook.com</h5>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <p class="mb-0 text-start">Service</p>
-              <h5>Product Design</h5>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <p class="mb-0 text-start">Deliverable</p>
-              <h5>UI Screens, UX Flow & Prototype</h5>
-            </div>
-          </div>
-          <hr />
-        </div>
-
-        <div class="privacy-policy mt-5 w-75 m-auto">
-          <h3 class="h2 mt-5">About the project</h3>
-          <p class="text-start mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-
-          <img
-            class="w-100"
-            src="../assets/img/portfolio/mobile app/app3 innersub.jpg"
-            alt=""
-          />
-          <h3 class="h2 mt-5">How we do it</h3>
-          <p class="text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
+	
+      <div class="myProducts">
+        <div class="image-container">
+          <img id="img-Box" src=
+"../assets/img/portfolio/Image5.png"
+              alt="click here">
       </div>
+        <div class="myProducts-gallery">
+            <img src=
+"../assets/img/portfolio/image 39.jpg"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src=
+"../assets/img/portfolio/Image2.png"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src=
+"../assets/img/portfolio/Image3.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src=
+"../assets/img/portfolio/Image4.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+        </div>
+  
+       
     </div>
+  </div>
+   
+  
+    <!-- gallery section end -->
+
+
+
 
      <!-- tools used section start -->
   <div class="tools-section pt-4 pb-5" style="background-color: #F4F6FC;">
@@ -434,7 +406,14 @@
     <script src="../assets/js/contact-form-script.js"></script>
     <!-- ajaxchimp JS -->
     <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
     <!-- main JS -->
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/gallery.js"></script>
+
+    
   </body>
 </html>

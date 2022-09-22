@@ -5,30 +5,34 @@ jQuery(function($) {
     $('.mean-menu').meanmenu({
         meanScreenWidth: '991',
     });
-
-    // Sticky Nav
-    // $(window).on('scroll', function() {
-    //     $(window).scrollTop() >= 100 ?
-    //     $('.navbar-area').addClass('stickyadd') :
-    //     $('.navbar-area').removeClass('stickyadd');
-    // });
+     // Sticky Nav
+     $(window).on('scroll', function() {
+        $(window).scrollTop() >= 100 ?
+        $('.navbar-area').addClass('stickyadd'):
+        $('.navbar-area').removeClass('stickyadd');
+    });
+     // Sticky Nav
+     $(window).on('scroll', function() {
+        $(window).scrollTop() >= 100 ?
+        $('.navbar-area-home').addClass('stickyadd-home'):
+        $('.navbar-area-home').removeClass('stickyadd-home');
+    });
 
     // Smooth Scrolling
-    // $('a.nav-link').on('click', function(e) {
-    //     var $this = $(this);
-    //     $('html, body')
-    //     .stop()
-    //     .animate({
-    //         scrollTop: $($this.attr('href')).offset().top - 60,
-    //     }, 1000 );
-    //     e.preventDefault();
-    // });
+    $('a.nav-link').on('click', function(e) {
+        var $this = $(this);
+        $('html, body')
+        .stop()
+        .animate({
+            scrollTop: $($this.attr('href')).offset().top - 60,
+        }, 1000 );
+        e.preventDefault();
+    });
 
     // Search Popup
-    // $('.search-btn').on('click', function() {
-    //     $('.search-popup').toggle(300);
-    // });
-
+    $('.search-btn').on('click', function() {
+        $('.search-popup').toggle(300);
+    });
     // Popup Video
     $('.youtube-popup').magnificPopup({
         disableOn: 320,
@@ -261,4 +265,17 @@ jQuery(function($) {
         });
     });
 
+
+
+
+   
+
 }(jQuery));
+
+
+// gallery section
+function myImageFunction(productSmallImg) {
+    var productFullImg = document.getElementById("img-Box");
+    productFullImg.src = productSmallImg.src;
+    productSmallImg.classList.add("active");
+}
