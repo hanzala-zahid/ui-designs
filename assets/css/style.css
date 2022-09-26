@@ -56,6 +56,7 @@ body {
 }
 
 
+
 h1,
 h2,
 h3,
@@ -178,10 +179,10 @@ button:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 13px;
-  border: 2px solid #cfcfcf;
+  border: 1px solid #cfcfcf;
   color: #86838d;
   padding: 1em 2em;
-  height: 68px;
+  /* height: 68px; */
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
   background: transparent;
@@ -191,7 +192,7 @@ button:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
+ 
 input[type="date"]::-webkit-input-placeholder {
   font-size: 14px;
   color: #86838d;
@@ -495,7 +496,7 @@ img {
   color: #fff;
   line-height: 28px;
   border-radius: 50%;
-  margin-right: 5px;
+  margin-right: 20px;
   border: 1px solid inherit;
   -webkit-transition-property: all;
   transition-property: all;
@@ -2289,8 +2290,8 @@ img {
 
 
 .faq-section .row .panel-group{
-  
-  width: 100%;
+  margin: 0 auto;
+  width: 75%;
   text-align: left;
  
 }
@@ -2312,14 +2313,17 @@ img {
 
 
 .faq-section .panel-group .panel {
-  border-radius: 5px;
-  margin-bottom: 10px;
+  /* border-radius: 5px; */
+
   overflow: hidden;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid rgb(235, 235, 235);
+ 
 }
 
 .faq-section .panel-group .panel .panel-heading {
   padding: 0;
-  background: #f3f3f3;
   position: relative;
 }
 
@@ -2330,7 +2334,7 @@ img {
 .faq-section .panel-group .panel-title a {
   display: block;
   padding: 22px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   border: 0;
   margin: 0;
@@ -2367,12 +2371,13 @@ img {
 .faq-section .panel-group .panel-body {
   padding: 1em 1.5em;
   border: 0;
-  border-top: 1px solid #6a6377;
+  /* border-top: 1px solid #6a6377; */
   background: #fcfcfc;
 }
 
 .faq-section .panel-group .panel-body p {
   margin: 0;
+  font-size: 16px;
 }
 
 .faq-section .single-feature {
@@ -2719,10 +2724,11 @@ img {
   background-color: #1C1E53;
   padding: 2rem 3rem;
 }
-.inquiry-section .row .right-form-col .cta-btn button{
+.footer-main .row .right-form-col .cta-btn button{
   width: 100%;
   background: #FCD980 !important;
   color: #1C1E53;
+  font-size: 16px;
 }
 .inquiry-section .row .right-form-col a{
   background: none;
@@ -2968,6 +2974,7 @@ img {
 
 
 
+
 .service-section .item-single .item-content h6 {
   font-size: 22px;
   text-transform: capitalize;
@@ -3077,9 +3084,9 @@ img {
 }
 
 .client-section .owl-carousel .slider-item .inner-text p {
-  font-size: 22px;
-  font-weight: 600;
-  color: #332f3b;
+  font-size: 16px;
+  font-weight: 200;
+  color: black;
 }
 
 .client-section .owl-carousel .slider-item .qoute-icon {
@@ -3372,7 +3379,7 @@ img {
 }
 
 .blog-item-single .blog-item-content {
-  padding: 1.5em;
+  /* padding: 1.5em; */
   background: #fff;
 }
 
@@ -5086,6 +5093,7 @@ Our Team section end
 }
 
 @media only screen and (max-width: 767px) {
+  
   .featured-service-section .featured-service-image {
     background-image: none;
   }

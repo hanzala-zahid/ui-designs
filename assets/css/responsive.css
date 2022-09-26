@@ -16,6 +16,8 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+ 
+  
   /* read-case-study page starts */
   
   /* read-case-study page end */
@@ -576,6 +578,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
   .use-client-first-section .row .col-lg-6 .section-title, p{
     width: 100%;
     text-align: center;
