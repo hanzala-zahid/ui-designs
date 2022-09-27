@@ -147,11 +147,13 @@ h6 {
 .btn-text-only {
   padding: 0;
   background: transparent;
+  color: #4285f4;
+  font-weight: lighter;
 }
 
-.btn-text-only:hover {
+/* .btn-text-only:hover {
   color: #1C1E53;
-}
+} */
 .btn-outline {
   background: transparent;
   border: 1px solid #1C1E53;
@@ -1466,7 +1468,7 @@ img {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   padding-top:10rem;
 }
 
@@ -2289,6 +2291,9 @@ img {
 
 
 
+.faq-section{
+ background: #F4F6FC;
+}
 .faq-section .row .panel-group{
   margin: 0 auto;
   width: 75%;
@@ -2325,6 +2330,7 @@ img {
 .faq-section .panel-group .panel .panel-heading {
   padding: 0;
   position: relative;
+  background-color: white;
 }
 
 .faq-section .panel-group .panel-title {
@@ -2371,8 +2377,9 @@ img {
 .faq-section .panel-group .panel-body {
   padding: 1em 1.5em;
   border: 0;
+  background-color: white;
   /* border-top: 1px solid #6a6377; */
-  background: #fcfcfc;
+  
 }
 
 .faq-section .panel-group .panel-body p {
@@ -2948,7 +2955,7 @@ img {
 
 .service-section{
   background-color: #F4F6FC;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .service-section .item-single {
   position: relative;
@@ -3314,10 +3321,16 @@ img {
 /*================================================
   Partner Area CSS
 =================================================*/
+.partner-area{
+
+  background: white;
+}
 .partner-area .partner-item {
   display: -ms-grid;
   display: grid;
   place-items: center;
+ 
+  background: white;
 }
 
 .partner-area .partner-item img {
@@ -3341,7 +3354,7 @@ img {
 .blog-section {
   position: relative;
   overflow: hidden;
- background-color: #fcfcfc;
+ background-color: white;
   z-index: 1;
 }
 
@@ -3359,7 +3372,11 @@ img {
 }
 
 .blog-item-single .blog-item-img img {
-  width: 100%;
+  /* width: 100%; */
+  width:  400px;
+  border-radius: 8px;
+    height: auto;
+    object-fit: cover;
 }
 
 .blog-item-single .blog-item-img p.tag {
@@ -3378,10 +3395,7 @@ img {
   border-radius: 0 5px 5px 0;
 }
 
-.blog-item-single .blog-item-content {
-  /* padding: 1.5em; */
-  background: #fff;
-}
+
 
 .blog-item-single .blog-item-content a:hover h3 {
   color: #282938;
@@ -3391,7 +3405,7 @@ img {
   font-size: 20px;
   line-height: 1.4;
   margin-top: 12px;
-  margin-bottom: 14px;
+  /* margin-bottom: 14px; */
 }
 
 .blog-item-single .blog-item-content span {
@@ -3985,14 +3999,15 @@ background-color: transparent;
   portfolio Area CSS
 =================================================*/
 .portfolio-head{
-  padding-top: 8rem;
-  
+ 
+ 
   background-color: #F4F6FC;
-  height: 26rem;
+  height: 17rem;
   
 }
-.portfolio-head .section-title-for-portfolio .social-link a{
- color: #282938;
+
+.portfolio-head .section-title-for-portfolio{
+ margin-top: 5.5rem;
 }
 
 .portfolio-section .portfolio-links .scrollmenu {

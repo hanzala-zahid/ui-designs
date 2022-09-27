@@ -286,11 +286,33 @@ jQuery(function($) {
 
 // gallery section
 function myImageFunction(productSmallImg) {
+   
     var productFullImg = document.getElementById("img-Box");
     productFullImg.src = productSmallImg.src;
-    productSmallImg.classList.add("active");
+    productSmallImg.classList.add("activeimg");
+  
 }
-
+function myImageFunctionAfter(productSmallImgAfter) {
+   
+    var productFullImgAfter = document.getElementById("img-Box-after");
+    productFullImgAfter.src = productSmallImgAfter.src;
+    productSmallImgAfter.classList.add("activeimg");
+  
+}
+// gallery section after
+const imageAfter = document.getElementById('img-Box');
+const canselPopup = document.getElementById('cross-cancel')
+const appDetail = document.getElementById('appDetailAfter')
+imageAfter.addEventListener('click', ()=>{
+ appDetail.style.display = "block";
+ document.getElementById('toolsafter').style.display = 'none';
+ document.getElementById('footerafter').style.display = 'none';
+})
+canselPopup.addEventListener('click', ()=>{
+ appDetail.style.display = "none";
+ document.getElementById('toolsafter').style.display = 'block';
+ document.getElementById('footerafter').style.display = 'block';
+})
 
 // // Get the modal
 // var modal = document.getElementById("myModal");

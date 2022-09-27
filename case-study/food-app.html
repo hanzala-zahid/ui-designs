@@ -82,6 +82,7 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- responsive CSS -->
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/gallery.css" />
     <!-- jquery link -->
 
     <!-- favicon -->
@@ -155,199 +156,219 @@
     </header>
     <!-- end header area -->
 
-    <div class="page-title-area bg-thin">
+    <div class="page-title-area pb-0" style="padding-top: 6rem">
       <div class="container">
-        <div class="page-title-content d-flex width-100 align-items-start">
-          <p class="mb-0 text-start">Web design and development</p>
-          <h2 class="text-start">Olafix Dashboard Design</h2>
-          <p class="w-100 text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse.
-          </p>
+        <div class="page-title-content w-100 align-items-start">
+          <h2 class="text-start w-75 m-auto mb-2">
+            Food Mobile app Design
+          </h2>
         </div>
-        <div class="target-img w-100">
-          <img
-            class="w-100"
-            src="../assets/img/portfolio/dashboard/dashboard2-inner.jpg"
-            alt=""
-          />
-          <div class="row mt-4">
-            <div class="col-lg-4 col-md-6">
-              <p class="mb-0 text-start">Client</p>
-              <h5>facebook.com</h5>
+        <!-- gallery section start -->
+        <div class="app-detail">
+          <div class="container text-center">
+            <div class="image-container">
+              <img
+                id="img-Box"
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483255_1_11zon.webp"
+                alt="click here"
+              />
             </div>
-            <div class="col-lg-4 col-md-6">
-              <p class="mb-0 text-start">Service</p>
-              <h5>Product Design</h5>
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <p class="mb-0 text-start">Deliverable</p>
-              <h5>UI Screens, UX Flow & Prototype</h5>
+            <div class="myProducts-gallery">
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483255_1_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483289_2_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483290_3_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483291_4_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483292_5_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483293_6_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483294_7_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483295_8_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483296_9_11zon.webp"
+                alt="click here"
+                onclick="myImageFunction(this)"
+              />
             </div>
           </div>
-          <hr />
         </div>
 
-        <div class="privacy-policy mt-5 w-75 m-auto">
-          <h3 class="h2 mt-5">About the project</h3>
-          <p class="text-start mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <!-- gallery section end -->
 
-          <img
-            class="w-100"
-            src="../assets/img/portfolio/dashboard/dashboard2-innersub.jpg"
-            alt=""
-          />
-          <h3 class="h2 mt-5">How we do it</h3>
-          <p class="text-start">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+        <!-- gallery img after on click start -->
+        <div class="app-detail-after" id="appDetailAfter">
+          <div class="container text-center">
+            <span id="cross-cancel"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" class="icon fill-current">
+              <path d="M0.605844 2.72773L13.9392 16.0611L16.0605 13.9397L2.72716 0.606413L0.605844 2.72773ZM13.9392 13.9397L0.605844 27.2731L2.72716 29.3944L16.0605 16.0611L13.9392 13.9397ZM27.2727 0.606329L13.9392 13.9397L16.0605 16.0611L29.394 2.72766L27.2727 0.606329ZM13.9392 16.0611L27.2727 29.3943L29.394 27.273L16.0605 13.9397L13.9392 16.0611Z"></path>
+              </svg></span>
+            <div class="myProducts-gallery">
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483255_1_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483289_2_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483290_3_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483291_4_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483292_5_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483293_6_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483294_7_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483295_8_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+              <img
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483296_9_11zon.webp"
+                alt="click here"
+                onclick="myImageFunctionAfter(this)"
+              />
+            </div>
+            <div class="image-container">
+              <img
+                id="img-Box-after"
+                src="../assets/img/portfolio/mobile app/FOODAPP/31483255_1_11zon.webp"
+                alt="click here"
+              />
+            </div>
+          </div>
+        </div>
+
+         <!-- gallery img after on click end -->
+
+         <div class="privacy-policy w-75 m-auto">
+          <h3 class="h2 mt-4 mb-4">About the project</h3>
+          <p class="text-start mb-3 mt-4">
+            DoctorQ is our foremost preferred of all the apps we've designed so far.
+            We thoroughly enjoy creating interfaces, both technically and emotionally.
+            
+            This app helps you find top-notch doctors just a click away. We have carefully designed the interface considering the patient's convenience while using the app. As you all know, blue is the color of healing and trust, so we set the color theme accordingly; it gives the patient complete vibes of confidence, healing, and calmness.
+            
           </p>
+          <p class="text-start mb-4 mt-2">
+            However, the app allows you to use your credit card to put the patients at ease. Personally, we love the creation of this DoctorQ App because there are so many doctors on board, rendering their services anytime the patient prefers.
+<br>
+<br>
+If you would like us to develop/create such applications, please feel free to contact us.
+<br>
+Contact us: <b>contact@uidesignz.com</b>
+
+          </p>
+          
         </div>
       </div>
     </div>
-    <!-- galery section start -->
-    <!-- <section class="shot-media-section  " data-screenshot_id="19056216">
-      <div class="js-media-container shot-media-container has-gallery " data-shot-id="19056216" data-type="modal">
-        
-
-          <div class="shot-image-color-palette-container">
-            <div class="position-relative">
-<div class="js-media-gallery media-gallery initial" style="overflow: hidden; cursor: inherit;"><div class="dribbble-carousel-wrapper display-flex" style="width: 2304px; transition: transform 200ms ease-out 0s; transform: translate3d(0px, 0px, 0px);"><div class="dribbble-carousel-slide" style="width: 33.3333%;"><div class="media-slide">
-      <a class="full-screen-page" href="/shots/19056216/attachments/14219603?mode=media">
-        
-<div class="js-media-shot media-shot" data-media-id="19056216">
-<div class="media-content" style="--largest-width: 1600px;">
-  <img alt="PEGAWEAN - Agency Landing Page" width="732" height="558" data-id="19056216" data-animated-url="https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png" skip_resize="false" srcset="https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=320x240&amp;vertical=top 320w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=400x300&amp;vertical=top 400w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=450x338&amp;vertical=top 450w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=640x480&amp;vertical=top 640w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=700x525&amp;vertical=top 700w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=800x600&amp;vertical=top 800w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=840x630&amp;vertical=top 840w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=1000x750&amp;vertical=top 1000w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=1200x900&amp;vertical=top 1200w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=768x576&amp;vertical=top 768w, https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=1600x1200&amp;vertical=top 1600w" sizes="(max-width: 919px) 100vw, max(768px, 98vh)" src="https://cdn.dribbble.com/users/3036385/screenshots/19056216/media/5217da17f1a96fff04b3c44037fc030f.png?compress=1&amp;resize=400x300&amp;vertical=top">
-
-</div>
-</div>
-
-</a>      </div></div><div class="dribbble-carousel-slide" style="width: 33.3333%;"><div class="media-slide">
-      <a class="full-screen-page" href="/shots/19056216/attachments/14219604?mode=media"> -->
-    <!-- galery section end -->
 
     <!-- tools used section start -->
-    <div class="tools-section pt-4 pb-5" style="background-color: #f4f6fc">
-      <div class="container w-50">
-        <h3 class="h3 text-center mb-4">Tools we use</h3>
+    
+      <div class="container" id="toolsafter">
+      <div class="d-flex align-items-center mb-5 w-75 m-auto">
+        <h3 class="h4 mb-0">Tools we use:</h3>
+        <div style="margin-left: 1rem;display: flex; width: 40rem; justify-content: flex-start;">
+         
 
-        <div class="mb-5 w-75 row" style="margin: 0 auto">
-          <div class="col-lg-4 col-sm-6 mb-0">
-            <div class="text-center">
-              <figure class="mb-0">
-                <img
-                  width="64"
-                  height="64"
-                  alt=""
-                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/FIGMA.svg"
-                  class="lazyloaded"
-                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/FIGMA.svg"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="text-center">Figma</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-0">
-            <div class="text-center">
-              <figure class="mb-0">
-                <img
-                  width="64"
-                  height="64"
-                  alt=""
-                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/SKETCH.svg"
-                  class="lazyloaded"
-                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/SKETCH.svg"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="text-center">Sketch</p>
-            </div>
-          </div>
+          <div class="col-lg-4 col-sm-6 mb-0 p-0">
+            <div class="text-center d-flex align-items-center">
+              <img
+                width="54"
+                height="54"
+                alt=""
+                data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/PS.svg"
+                class="lazyloaded"
+                src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/PS.svg"
+                loading="lazy"
+              />
 
-          <div class="col-lg-4 col-sm-6 mb-0">
-            <div class="text-center">
-              <figure class="mb-0">
-                <img
-                  width="64"
-                  height="64"
-                  alt=""
-                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/MOQUPS-1.svg"
-                  class="lazyloaded"
-                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/MOQUPS-1.svg"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="text-center">Moqups</p>
+              <p class="mb-0">Adobe Photoshop</p>
             </div>
           </div>
+          <div class="col-lg-4 col-sm-6 mb-0 p-0">
+            <div class="text-center d-flex align-items-center">
+              <img
+                width="54"
+                height="54"
+                alt=""
+                data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/AI.svg"
+                class="lazyloaded"
+                src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/AI.svg"
+                loading="lazy"
+              />
 
-          <div class="col-lg-4 col-sm-6 mb-0">
-            <div class="text-center">
-              <figure class="mb-0">
-                <img
-                  width="64"
-                  height="64"
-                  alt=""
-                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/XD.svg"
-                  class="lazyloaded"
-                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/XD.svg"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="text-center">Adobe XD</p>
+              <p class="mb-0">Adobe sIllustrator</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 mb-0">
-            <div class="text-center">
-              <figure class="mb-0">
-                <img
-                  width="64"
-                  height="64"
-                  alt=""
-                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/PS.svg"
-                  class="lazyloaded"
-                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/PS.svg"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="text-center">Adobe Photoshop</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-0">
-            <div class="text-center">
-              <figure class="mb-0">
-                <img
-                  width="64"
-                  height="64"
-                  alt=""
-                  data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/AI.svg"
-                  class="lazyloaded"
-                  src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2020/11/AI.svg"
-                  loading="lazy"
-                />
-              </figure>
-              <p class="text-center">Adobe sIllustrator</p>
+          <div class="col-lg-4 col-sm-6 mb-0 p-0">
+            <div class="text-center ml-5 d-flex align-items-center">
+              <img
+                width="54"
+                height="54"
+                alt=""
+                data-src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/FIGMA.svg"
+                class="lazyloaded"
+                src="https://s8a8b5w5.stackpathcdn.com/wp-content/uploads/2022/05/FIGMA.svg"
+                loading="lazy"
+              />
+
+              <p class="mb-0">Figma</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
     <!-- tools used section end -->
 
@@ -520,7 +541,9 @@
     <script src="../assets/js/contact-form-script.js"></script>
     <!-- ajaxchimp JS -->
     <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+
     <!-- main JS -->
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/gallery.js"></script>
   </body>
 </html>
