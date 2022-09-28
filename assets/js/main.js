@@ -296,7 +296,7 @@ function myImageFunctionAfter(productSmallImgAfter) {
    
     var productFullImgAfter = document.getElementById("img-Box-after");
     productFullImgAfter.src = productSmallImgAfter.src;
-    productSmallImgAfter.classList.add("activeimg");
+   
   
 }
 // gallery section after

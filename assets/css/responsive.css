@@ -323,7 +323,7 @@
   }
   .testimonial .owl-carousel .slider-item {
    
-    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    background: white;
     padding: 40px 16px;
     height: 100%;
     -webkit-box-pack: start;
@@ -771,8 +771,8 @@
     padding-bottom: 50px;
   }
   .testimonial .owl-carousel .slider-item {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(90, 73, 248, 0.7)), to(rgba(107, 91, 249, 0.5)));
-  background: linear-gradient(0deg, rgba(90, 73, 248, 0.7) 20%, rgba(107, 91, 249, 0.5) 100%);
+   
+  background: white;
     padding: 40px 16px;
     height: 100%;
     -webkit-box-pack: start;
@@ -781,6 +781,7 @@
   }
   .testimonial .owl-carousel .slider-item .inner-text p {
     font-size: 14px;
+    color: black;
   }
   .testimonial .tesimonial-grid {
     display: block;
@@ -923,14 +924,14 @@
   .client-section .owl-carousel .slider-item .inner-text p {
     text-align: center;
     font-size: 18px;
-    color: #ffffff;
+    color: black;
   }
   .client-section .owl-carousel .slider-item .client .client-info h6 {
     margin: 0;
-    color: #fff;
+    color: black;
   }
   .client-section .owl-carousel .slider-item .client .client-info span {
-    color: #fff;
+    color: black;
     font-size: 14px;
   }
   .client-section .section-title {
@@ -964,6 +965,14 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  #gallery-content-id{
+    width: 60%;
+  }
+  #con-id{
+    margin-bottom: 8rem;
+    margin-left: 3rem;
+  }
   .container {
     max-width: 960px;
   }
