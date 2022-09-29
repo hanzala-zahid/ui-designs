@@ -2289,7 +2289,7 @@ img {
   Faq Area CSS
 =================================================*/
 
-
+/* 
 
 .faq-section{
  background: #F4F6FC;
@@ -2319,7 +2319,7 @@ img {
 
 .faq-section .panel-group .panel {
   /* border-radius: 5px; */
-
+/*
   overflow: hidden;
   border-left: none;
   border-right: none;
@@ -2379,7 +2379,7 @@ img {
   border: 0;
   background-color: white;
   /* border-top: 1px solid #6a6377; */
-  
+/*  
 }
 
 .faq-section .panel-group .panel-body p {
@@ -2514,7 +2514,7 @@ img {
 .faq-section [class^="col-"]:nth-child(2) [class^="col-"]:nth-child(2) .single-feature:hover .hover-overlay {
   background: -webkit-gradient(linear, left bottom, left top, from(#20c997), to(#7bf8d7));
   background: linear-gradient(0deg, #20c997 0%, #7bf8d7 100%);
-}
+} */
 
 /*================================================
   Gallery Area CSS
@@ -2961,7 +2961,7 @@ img {
 .service-section .item-single {
   position: relative;
   height: 20rem;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 3em 2em;
   background-color: #ffffff;
   border-radius: 4px;
@@ -3146,6 +3146,7 @@ img {
 }
 
 /* testimonial section end */
+
 
 /*================================================
   Feature Area CSS
@@ -3968,6 +3969,7 @@ background-color: transparent;
 /*================================================
   Faq Area CSS
 =================================================*/
+/* 
 .faq-item {
   padding: 2em;
   margin-bottom: 30px;
@@ -3995,7 +3997,7 @@ background-color: transparent;
 
 .faq-item p {
   margin-bottom: 0;
-}
+} */
 /*================================================
   portfolio Area CSS
 =================================================*/
@@ -4825,7 +4827,7 @@ about us page css
 }
 .intro-section{
   background: #F4F5F5;
-  padding: 5rem 5rem 4rem 4rem;
+  padding: 3rem 3rem;
 }
 .main_img{
   margin-bottom: 8rem;
@@ -4918,13 +4920,16 @@ Our Team section end
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   background-color: #1C1E53;
-  float: left;
+  /* float: left; */
 }
 
 .owl-carousel .owl-dots .owl-dot.active {
   width: 40px;
   border-radius: 30px;
 }
+
+
+
 
 @media (max-width: 991.98px) {
   .navbar-area .top-nav {
@@ -5328,12 +5333,12 @@ Our Team section end
   #con-id{
     margin-bottom: 8rem;
     /* margin-left: 3rem; */
-    margin-right: 3rem;
+    margin-right: 4rem;
   }
   #second{
-margin-right: 3rem;
+margin-right: 4rem;
   }
   #therd{
-    margin-right: 3rem;
+    margin-right: 6rem;
   }
 }

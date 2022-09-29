@@ -46,7 +46,7 @@
     width: 100%;
     height: 50rem;
   }
-  .faq-section .row .col-lg-6 .row .section-title h2{
+  /* .faq-section .row .col-lg-6 .row .section-title h2{
     font-size: 1.5rem;
     width: 100%;
     text-align: center;
@@ -60,7 +60,7 @@
     width: 100%;
     text-align: center;
   }
- 
+  */
   body {
     font-size: 14px;
   }
@@ -151,6 +151,72 @@
     text-align: center;
     max-width: 100%;
   }
+  .home-banner-area .banner-content .cta-btn {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1.4rem;
+   flex-direction: column;
+   align-items: center;
+  }
+  #inquiry-roport-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  #how-we-work-sec{
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  #whatsapp-numb{
+    padding-left: 0 !important;
+  }
+  #location-address{
+    padding-left: 0 !important;
+  }
+  #footer-sec{
+    padding-top: 0 !important;
+  }
+  #contactForm {
+    padding: 0 !important;
+    background-color: #F4F6FC;
+    width: 100%;
+    margin: auto !important;
+    margin-bottom: 5rem;
+}
+#exclusive-text{
+  margin-bottom: 0;
+}
+#exclusive-text h2{
+  margin-bottom: 0;
+}
+#single-item{
+  padding-top: 0 !important;
+}
+#con-id{
+  
+  
+  /* margin-right: rem; */
+  margin-bottom: 1rem;
+}
+#second{
+margin-right: 2.5rem;
+}
+#therd{
+  margin-right: 4.5rem;
+}
+#mail-call-info-sec{
+  padding-left: .8rem !important;
+}
+  .project-details-area .container .head h2{
+    margin-bottom: 2rem;
+    
+  }
+  .home-banner-area .banner-content .cta-btn .btn-solid {
+    width: 80%;
+  }
+  .home-banner-area .banner-content .cta-btn .btn-light {
+    width: 80%;
+    margin: 0;
+  }
   .home-banner-area .banner-content h1 {
     margin-bottom: 15px;
     font-size: 30px;
@@ -237,12 +303,12 @@
     margin-top: 0 !important;
     padding: 5em 2em;
   }
-  .faq-section .row {
+  /* .faq-section .row {
     padding-top: 30px;
   }
   .faq-section [class*="col-"] [class*="col-"]:nth-child(4) .single-feature {
     margin-bottom: 0;
-  }
+  } */
   .newsletter-form .input-group {
     height: auto;
     -webkit-box-orient: vertical;
@@ -514,7 +580,7 @@
     margin-top: 100px;
     width: 80%;
   }
-  .faq-section .row .col-lg-6 .row .section-title h2{
+  /* .faq-section .row .col-lg-6 .row .section-title h2{
     font-size: 1rem;
     width: 100%;
   }
@@ -526,7 +592,7 @@
   }
   .faq-section [class*="col-"] [class*="col-"] {
     width: 50%;
-  }
+  } */
   .featured-service-section .container {
     max-width: 540px;
   }
@@ -751,9 +817,9 @@
     display: inline;
     margin-left: 20px;
   }
-  .faq-section .row .row {
+  /* .faq-section .row .row {
     padding-top: 30px;
-  }
+  } */
   .featured-service-section[class*="col-"] {
     padding-left: 1em;
     padding-right: 1em;
@@ -852,13 +918,13 @@
   .tips-section .tips-img img {
     max-width: 100%;
   }
-  .faq-section [class^="col-"]:nth-child(2) [class^="col-"]:nth-child(even) .single-feature {
+  /* .faq-section [class^="col-"]:nth-child(2) [class^="col-"]:nth-child(even) .single-feature {
     -webkit-transform: none;
     transform: none;
   }
   .faq-section .single-feature {
     padding: 5em 1em;
-  }
+  } */
   .client-section .owl-carousel .slider-item {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -874,7 +940,7 @@
     align-items: center;
   }
   .client-section .owl-carousel .owl-dots {
-    margin-top: 30px;
+    margin-top: -30px;
     text-align: center;
   }
   .client-section .clients-img {
