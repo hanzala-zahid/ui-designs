@@ -3957,7 +3957,7 @@ background-color: transparent;
   Copy-right Area CSS
 =================================================*/
 .footer-links{
- padding-top: 2rem;
+ padding-top: 1rem;
 }
 .footer-links .row ul li{
   list-style: none;
@@ -4936,7 +4936,7 @@ Our Team section end
     display: none;
   }
   .navbar-area .mobile-nav .logo {
-    top: 15px;
+    top: 24px;
   }
   .navbar-area .cta-btn {
     display: none;
@@ -5028,7 +5028,7 @@ Our Team section end
     display: none;
   }
   .navbar-area-home .mobile-nav .logo {
-    top: 15px;
+    top: 24px;
   }
   .navbar-area-home .cta-btn {
     display: none;

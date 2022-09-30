@@ -160,7 +160,7 @@
   }
   #inquiry-roport-section{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   #how-we-work-sec{
     width: 100% !important;
@@ -190,11 +190,10 @@
 }
 #single-item{
   padding-top: 0 !important;
+  height: 27rem !important;
+  margin-top: 0 !important;
 }
 #con-id{
-  
-  
-  /* margin-right: rem; */
   margin-bottom: 1rem;
 }
 #second{
@@ -205,6 +204,23 @@ margin-right: 2.5rem;
 }
 #mail-call-info-sec{
   padding-left: .8rem !important;
+  padding-right: 0 !important;
+  width: auto !important;
+  margin-right: 0 !important;
+}
+#testimonial-video{
+  width: 100%;
+  height: 18rem;
+}
+#exclusive-text{
+  margin-bottom: 2rem !important;
+}
+#home-banner-video{
+  height: 50vh;
+}
+
+.rounded-pill{
+  width: 100%;
 }
   .project-details-area .container .head h2{
     margin-bottom: 2rem;
@@ -269,7 +285,7 @@ margin-right: 2.5rem;
     padding: 0 0 30px;
   }
   .top-feature-section {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
   .top-feature-section .col-lg-6 .section-title h2{
     width: 100%;
