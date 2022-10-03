@@ -111,7 +111,7 @@ h6 {
 
 .btn {
   position: relative;
-  padding: 16px 40px;
+  padding: 10px 30px;
   margin: 0;
   border-radius: 0;
   font: 600 14px "Poppins", sans-serif;
@@ -438,7 +438,7 @@ img {
           flex-direction: column;
   text-align: center;
   width: 60%;
-  margin: 0 auto 50px;
+  margin: 0 0 50px;
 }
 
 .section-title .subtitle {
@@ -691,7 +691,7 @@ img {
 }
 
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link {
-  color: #1C1E53;
+  color: black;
 }
 
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link:hover {
@@ -699,7 +699,7 @@ img {
 }
 
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item a.active {
-  color: #1C1E53;
+  color: black;
 }
 
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item a.active::before {
@@ -1048,7 +1048,7 @@ img {
 }
 
 .navbar-area-home .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link {
-  color: #1C1E53;
+  color: black;
 }
 
 .navbar-area-home .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link:hover {
@@ -1056,7 +1056,7 @@ img {
 }
 
 .navbar-area-home .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item a.active {
-  color: #1C1E53;
+  color: black;
 }
 
 .navbar-area-home .main-nav nav .navbar-nav .nav-item .dropdown-menu .nav-item a.active::before {

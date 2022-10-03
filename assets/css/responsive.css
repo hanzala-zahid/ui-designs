@@ -218,7 +218,19 @@ margin-right: 2.5rem;
 #home-banner-video{
   height: 50vh;
 }
-
+#our-partners{
+  margin-left: 0 !important;
+}
+#services-main-heading{
+  font-weight: 2400 !important;
+  font-size: 2rem;
+  line-height: 2.5rem !important;
+  text-align: center !important;
+}
+.js-start{
+  justify-content: center !important;
+  margin: 1rem auto;
+}
 .rounded-pill{
   width: 100%;
 }
