@@ -227,6 +227,14 @@ margin-right: 2.5rem;
   line-height: 2.5rem !important;
   text-align: center !important;
 }
+.service-section-title{
+width: 100% !important;
+}
+.mission-box{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+}
 .js-start{
   justify-content: center !important;
   margin: 1rem auto;
