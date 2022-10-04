@@ -107,7 +107,7 @@ justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
-    padding: 6rem 0;
+    padding-top: 6rem;
     align-items: center;
     z-index: 9999;
     background: white;
@@ -115,6 +115,7 @@ justify-content: center;
     animation: fadeIn .5s;
     height: 100%;
     width: 100%;
+
 }
 .app-detail-after  #img-Box-after{
     /* float: left; */

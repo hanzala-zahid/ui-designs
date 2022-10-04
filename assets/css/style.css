@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
 /*
 @File: Solit Template Styles
 
@@ -49,7 +50,7 @@ This files table contents are outlined below>>>>>
 	General CSS(body, header, btn, form, link, img, section bg)
 -------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'CircularStd', sans-serif;
   color: #6a6377;
   background: #fff;
   font-size: 1em;
@@ -64,7 +65,7 @@ h4,
 h5,
 h6 {
   color: #332f3b;
-  font-family: "Poppins", sans-serif;
+  font-family: 'CircularStd', sans-serif;
   line-height: 1.4;
 }
 
@@ -114,7 +115,7 @@ h6 {
   padding: 10px 30px;
   margin: 0;
   border-radius: 0;
-  font: 600 14px "Poppins", sans-serif;
+  font: 600 14px "CircularStd", sans-serif;
   letter-spacing: 0.5px;
   text-transform: capitalize;
   overflow: hidden;
@@ -158,6 +159,7 @@ h6 {
   background: transparent;
   border: 1px solid #1C1E53;
   color: #1C1E53;
+  font-size: 17px;
 }
 
 .btn-outline:hover {
@@ -324,12 +326,12 @@ a:focus {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "CircularStd", sans-serif;
   color: #554d63;
-  font-size: 1em;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: lighter;
   margin-bottom: 15px;
-  line-height: 1.8;
+  line-height: 1.63;
 }
 
 img {
@@ -444,7 +446,7 @@ img {
 .section-title .subtitle {
   
   
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
   color: #282938;
   text-align: center;
@@ -631,11 +633,12 @@ img {
 
   position: relative;
   overflow: hidden;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.3px;
   text-transform: capitalize;
   color: #fff;
-  padding: 28px 0;
+  padding: 28px 5px;
 }
 
 .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
@@ -854,6 +857,7 @@ img {
 .navbar-area.nav-style-two.stickyadd .cta-btn .btn-outline {
   border: 1px solid #fff;
   color: #fff;
+  font-size: 17px;
 }
 
 .navbar-area.nav-style-two.stickyadd .cta-btn .btn-outline:hover {
@@ -870,6 +874,7 @@ img {
 .navbar-area.nav-style-two .cta-btn .btn-outline {
   border: 1px solid #fff;
   color: #fff;
+  font-size: 17px;
 }
 
 .navbar-area.nav-style-two .cta-btn .btn-outline:hover {
@@ -988,11 +993,12 @@ img {
 
   position: relative;
   overflow: hidden;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.3px;
   text-transform: capitalize;
   color: #fff;
-  padding: 28px 0;
+  padding: 28px 5px;
 }
 
 .navbar-area-home .main-nav nav .navbar-nav .nav-item a:hover {
@@ -1160,6 +1166,7 @@ img {
 .navbar-area-home.nav-style-two.stickyadd-home .cta-btn .btn-outline {
   border: 1px solid #fff;
   color: #fff;
+  font-size: 17px;
 }
 
 .navbar-area-home.nav-style-two.stickyadd-home .cta-btn .btn-outline:hover {
@@ -1176,6 +1183,7 @@ img {
 .navbar-area-home.nav-style-two .cta-btn .btn-outline {
   border: 1px solid #fff;
   color: #fff;
+  font-size: 17px;
 }
 
 .navbar-area-home.nav-style-two .cta-btn .btn-outline:hover {
@@ -2384,7 +2392,7 @@ img {
 
 .faq-section .panel-group .panel-body p {
   margin: 0;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .faq-section .single-feature {
@@ -2736,7 +2744,7 @@ img {
   width: 100%;
   background: #FCD980 !important;
   color: #1C1E53;
-  font-size: 16px;
+  font-size: 19px;
 }
 .inquiry-section .row .right-form-col a{
   background: none;
@@ -2793,7 +2801,7 @@ img {
 }
 
 .pricing-section .pricing-item-single .pricing-item-content .content-text span.label {
-  font-family: "Roboto", sans-serif;
+  font-family: "CircularStd", sans-serif;
   font-size: 22px;
 }
 
@@ -2817,7 +2825,7 @@ img {
 
 .pricing-section .pricing-item-single .pricing-item-list ul li i {
   font-size: 12px;
-  font-weight: normal;
+  font-weight: lighter;
   -webkit-padding-end: 22px;
   padding-inline-end: 22px;
   color: #20c997;
@@ -3013,7 +3021,7 @@ img {
 	color: #333;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "Roboto", sans-serif;
+	font-family: "CircularStd", sans-serif;
 	font-weight: bold;
 	position: relative;
 	margin: 30px 0 60px;
@@ -3092,8 +3100,8 @@ img {
 }
 
 .client-section .owl-carousel .slider-item .inner-text p {
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 19px;
+  font-weight: lighter;
   color: black;
 }
 
@@ -3490,7 +3498,7 @@ img {
 .blog-details-section .blog-details-desc .post-meta li {
   color: #6a6377;
   display: inline-block;
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 14px;
   margin-right: 18px;
 }
@@ -3618,7 +3626,7 @@ img {
 
 .blog-details-section .blog-details-desc .comments-area .comment-body .comment-content .comment-metadata .name {
   color: #554d63;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: bold;
   margin: 0;
 }
@@ -3659,7 +3667,7 @@ img {
 
 .blog-details-section .tags a {
   display: inline-block;
-  font-weight: 400;
+  font-weight: lighter;
   padding: 4px 12px;
   margin-top: 8px;
   font-size: 14px;
@@ -3728,7 +3736,7 @@ img {
   height: 68px;
   padding: 0 0 0 15px;
   border: none;
-  font-weight: 600;
+  font-weight: 300;
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
   -webkit-box-shadow: 0 0 20px -2px rgba(106, 99, 119, 0.1);
@@ -4108,7 +4116,7 @@ background-color: transparent;
   margin-bottom: 10px;
   color: #6a6377;
   line-height: 1.8;
-  font-weight: 600;
+  font-weight: lighter;
 }
 
 .privacy-policy-area .widget-area {
@@ -4132,8 +4140,10 @@ background-color: transparent;
   display: block;
   padding: 15px 25px 15px 40px;
   color: #332f3b;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: lighter;
+  
+  font-size: 19px;
+
 }
 
 .privacy-policy-area .widget-area ul li a:hover {
@@ -4361,7 +4371,7 @@ background-color: transparent;
 
 .project-details-area .ghover .gallery-item .gallery-content h2{
   width: 23rem;
-  font-size: 16px;
+  font-size: 19px;
   position: absolute;
   top: 18rem;
   left: .5rem;
@@ -4386,12 +4396,12 @@ font-size: 1.5rem;
   color: #fff;
 }
 .ghover .gallery-item .gallery-content h2 a{
-  font-size: 16px;
+  font-size: 19px;
   background: none;
 }
 
 .project-details-area .widget-area .gallery-item .gallery-content h2 {
-  font-size: 16px;
+  font-size: 19px;
   -webkit-transform: translateY(50px);
   transform: translateY(50px);
   -webkit-transition-property: all;
@@ -4405,7 +4415,7 @@ font-size: 1.5rem;
   color: #fff;
 }
 .project-details-area .ghover .gallery-item .gallery-content h2 {
-  font-size: 16px;
+  font-size: 19px;
   -webkit-transform: translateX(50px);
   transform: translateX(50px);
   -webkit-transition-property: all;
