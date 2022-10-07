@@ -266,20 +266,32 @@ jQuery(function($) {
     });
 
 
+// open video testimonial
 
+var iframeVideo = $(".video-popup__iframe");
+var innerVideo = $(".video-popup__inner");
+$("html").on("click", ".openVideo", function (e) {
+  innerVideo = $(".video-popup__inner");
+  var link = $(this).attr("data-link"); // console.log(iframeVideo);
 
-    console.log("hello");
-    
-    $(".popup img").click(function () {
-        var $src = $(this).attr("src");
-        $(".show").fadeIn();
-        $(".img-show img").attr("src", $src);
-    });
-    
-    $("span, .overlay").click(function () {
-        $(".show").fadeOut();
-    });
-    
+  var settings = "?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer";
+  var id = /\w+$/i.exec(link)[0];
+  iframeVideo.attr("src", "https://www.youtube.com/embed/" + id + settings);
+  $(".video-popup").fadeIn();
+  var wWrapper = innerVideo.width();
+  innerVideo.height(wWrapper * 9 / 16);
+});
+$(".closeVideo").on("click", function (e) {
+  iframeVideo.attr("src", "");
+  $(".video-popup").fadeOut();
+});
+$(window).resize(function (e) {
+  var w = $("body").width();
+  var wWrapper = innerVideo.width();
+  innerVideo.height(wWrapper * 9 / 16);
+});
+
+ 
 
 }(jQuery));
 
@@ -314,23 +326,3 @@ canselPopup.addEventListener('click', ()=>{
  document.getElementById('footerafter').style.display = 'block';
 })
 
-// // Get the modal
-// var modal = document.getElementById("myModal");
-
-// // Get the image and insert it inside the modal - use its "alt" text as a caption
-// var img = document.getElementById("img-box");
-// var modalImg = document.getElementById("img01");
-// var captionText = document.getElementById("caption");
-// img.onclick = function(){
-//   modal.style.display = "block";
-//   modalImg.src = this.src;
-//   captionText.innerHTML = this.alt;
-// }
-
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
-
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() { 
-//   modal.style.display = "none";
-// }
