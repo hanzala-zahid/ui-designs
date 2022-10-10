@@ -301,9 +301,16 @@ function myImageFunction(productSmallImg) {
    
     var productFullImg = document.getElementById("img-Box");
     productFullImg.src = productSmallImg.src;
-    productSmallImg.classList.add("activeimg");
-  
+    // productSmallImg.classList.replac("activeImg");
+   
+        
+   
+    
 }
+
+
+
+
 function myImageFunctionAfter(productSmallImgAfter) {
    
     var productFullImgAfter = document.getElementById("img-Box-after");

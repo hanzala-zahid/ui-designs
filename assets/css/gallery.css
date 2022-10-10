@@ -26,6 +26,9 @@
 
     
 }
+.activeImg{
+    border: 2px solid red !important;
+}
 
 .myProducts-gallery {
     

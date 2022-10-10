@@ -5375,4 +5375,10 @@ margin-right: 4rem;
   #exclusive-text{
    padding: 0 15rem;
   }
+  #whatsapp-numb{
+    padding-left: 0 !important;
+  }
+  #mail-call-info-sec{
+    padding-right: 0 !important;
+  }
 }
