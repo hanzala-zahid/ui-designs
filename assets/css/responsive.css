@@ -18,6 +18,17 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  #comment-section-head{
+    padding: 0 !important;
+  }
+  .page-title-content-blog h2{
+    
+    padding: 0 !important;
+  }
+ .privacy-policy{
+  margin: 0 !important;
+  width: 100% !important;
+ }
  
   
   /* read-case-study page starts */
@@ -138,7 +149,7 @@
   }
   .page-title-area {
     padding-bottom: 80px;
-    padding-top: 140px;
+    padding-top: 90px;
   }
   .page-title-area .page-title-content ul {
     margin: 0;
@@ -932,6 +943,18 @@ width: 100% !important;
 }
 
 @media screen and (max-width: 991px) {
+  
+  .checkboxcommit p{
+    margin-left: 1rem;
+    text-align: start;
+  } 
+  .page-title-content-blog h2{
+    font-size: 22px !important;
+    padding: 0 !important;
+  }
+  .privacy-policy p{
+    text-align: left !important;
+   }
   .myProducts-gallery{
     justify-content: start !important;
   }
