@@ -106,7 +106,7 @@ jQuery(function($) {
 
     // Testimonial Slider
     let testimonialSlider = $('.testimonial-slider').owlCarousel({
-        items: 1,
+        items: 3,
         dots: true,
         margin: 10,
         responsiveClass: true,

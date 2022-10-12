@@ -18,6 +18,19 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+ 
+  #client-testimonial-heading{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* width: 100% !important; */
+    
+    
+  }
+  #client-testimonial-heading h2{
+    margin-bottom: 0;
+  }
   #comment-section-head{
     padding: 0 !important;
   }
@@ -223,7 +236,7 @@ margin-right: 2.5rem;
 }
 #testimonial-video{
   width: 100%;
-  height: 11rem;
+  height: auto;
 }
 #exclusive-text{
   margin-bottom: 2rem !important;
@@ -438,8 +451,8 @@ width: 100% !important;
   }
   .testimonial .owl-carousel .slider-item {
    
-    background: white;
-    padding: 40px 16px;
+    background: transparent;
+    padding: 40px 0px;
     height: 100%;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -693,7 +706,7 @@ width: 100% !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+  
 #single-item{
   height: auto !important;
 }
@@ -846,8 +859,8 @@ width: 100% !important;
   }
   .testimonial .owl-carousel .slider-item .inner-text p {
     font-size: 16px;
-    width: 60%;
-    margin: 0 auto;
+    /* width: 60%; */
+    /* margin: 0 auto; */
     text-align: center;
   }
   .testimonial .owl-carousel .slider-item .client {
@@ -896,7 +909,7 @@ width: 100% !important;
   }
   .testimonial .owl-carousel .slider-item {
    
-  background: white;
+  background: transparent;
     padding: 40px 16px;
     height: 100%;
     -webkit-box-pack: start;
@@ -943,6 +956,9 @@ width: 100% !important;
 }
 
 @media screen and (max-width: 991px) {
+  .owl-carousel .owl-dots .owl-dot{
+    margin-top: 0 !important;
+  }
   
   .checkboxcommit p{
     margin-left: 1rem;
@@ -1004,17 +1020,20 @@ width: 100% !important;
     align-items: center;
   }
   .client-section .owl-carousel .slider-item .client {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    /* flex-direction: column; */
     -webkit-box-align: center;
     -ms-flex-align: center;
+    justify-content: flex-start;
     align-items: center;
   }
   .client-section .owl-carousel .owl-dots {
-    margin-top: -30px;
-    text-align: center;
+    margin-top: -18px;
+    margin-bottom: 1.5rem;
+    text-align: start;
   }
   .client-section .clients-img {
     height: auto;
@@ -1061,7 +1080,7 @@ width: 100% !important;
     margin-top: 30px;
   }
   .client-section .owl-carousel .slider-item .inner-text p {
-    text-align: center;
+    text-align: start;
     font-size: 18px;
     color: black;
   }
@@ -1104,6 +1123,7 @@ width: 100% !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
   #single-item{
     height: auto !important;
   }
