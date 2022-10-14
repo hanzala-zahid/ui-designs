@@ -18,6 +18,10 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  #contact_row_sec{
+    padding: 1.5rem 0 !important;
+    background-color: #F4F6FC;
+  }
  
   #client-testimonial-heading{
     margin-top: 2rem;
