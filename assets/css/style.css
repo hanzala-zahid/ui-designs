@@ -5352,6 +5352,9 @@ Our Team section end
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
+#page__slugs .btn-text-only{
+  font-size: 10px;
+}
 
 @-webkit-keyframes rotateme {
   from {
