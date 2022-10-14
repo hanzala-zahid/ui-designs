@@ -613,7 +613,8 @@ img {
 }
 
 .navbar-area .main-nav .navbar .cta-btn {
-  margin: 0 15px;
+ 
+  margin-left: 15px;
 }
 
 .navbar-area .main-nav .navbar .cta-btn .btn {
@@ -973,7 +974,8 @@ img {
 }
 
 .navbar-area-home .main-nav .navbar .cta-btn {
-  margin: 0 15px;
+  
+  margin-left: 15px;
 }
 
 .navbar-area-home .main-nav .navbar .cta-btn .btn {
@@ -3706,7 +3708,8 @@ img {
 }
 
 .blog-details-section .blog-details-desc .comments-area .comment-body .comment-author .avatar {
-  width: 90px;
+  width: 80px;
+  border-radius: 50%;
 }
 
 .blog-details-section .blog-details-desc .comments-area .comment-body .comment-content {
@@ -3733,20 +3736,21 @@ img {
 .blog-details-section .blog-details-desc .comments-area .comment-body .comment-content .comment-metadata .reply .btn-solid {
   border-radius: 5px;
   padding: 2px 10px;
-  -webkit-box-shadow: 0 0 40px 40px #5a49f8 inset;
-  box-shadow: 0 0 40px 40px #5a49f8 inset;
+ background-color: #1C1E53;
+  border: none;
+  color: white;
   font-size: 12px;
 }
 
 .blog-details-section .blog-details-desc .comments-area .comment-body .comment-content .comment-metadata .reply .btn-solid:hover {
-  color: #5a49f8;
-  border: 1px solid #5a49f8;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  color: #1C1E53;
+  background-color: transparent;
+  border: 1px solid #1C1E53;
+  
 }
 
 .blog-details-section .blog-details-desc .comments-area .comment-body .comment-content p {
-  margin-top: 5px;
+ 
   font-size: 15px;
 }
 
@@ -4108,7 +4112,7 @@ background-color: transparent;
 }
 
 .portfolio-head .section-title-for-portfolio{
- margin-top: 5.5rem;
+ /* margin-top: 0; */
 }
 
 .portfolio-section .portfolio-links .scrollmenu {
