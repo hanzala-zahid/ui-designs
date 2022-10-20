@@ -18,6 +18,11 @@
 /* banner */
 /* about section */
 @media only screen and (max-width: 767px) {
+  #tools-sec-margin{
+    margin: 0 !important;
+    width: 10rem !important;
+    
+  }
   #contact_row_sec{
     padding: 1.5rem 0 !important;
     background-color: #F4F6FC;
