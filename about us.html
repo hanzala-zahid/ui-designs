@@ -7,60 +7,7 @@
 
     <!-- title -->
     <title>Uidesigns</title>
-    <!-- Start of Async Drift Code -->
-    <script>
-      "use strict";
 
-      !(function () {
-        var t = (window.driftt = window.drift = window.driftt || []);
-        if (!t.init) {
-          if (t.invoked)
-            return void (
-              window.console &&
-              console.error &&
-              console.error("Drift snippet included twice.")
-            );
-          (t.invoked = !0),
-            (t.methods = [
-              "identify",
-              "config",
-              "track",
-              "reset",
-              "debug",
-              "show",
-              "ping",
-              "page",
-              "hide",
-              "off",
-              "on",
-            ]),
-            (t.factory = function (e) {
-              return function () {
-                var n = Array.prototype.slice.call(arguments);
-                return n.unshift(e), t.push(n), t;
-              };
-            }),
-            t.methods.forEach(function (e) {
-              t[e] = t.factory(e);
-            }),
-            (t.load = function (t) {
-              var e = 3e5,
-                n = Math.ceil(new Date() / e) * e,
-                o = document.createElement("script");
-              (o.type = "text/javascript"),
-                (o.async = !0),
-                (o.crossorigin = "anonymous"),
-                (o.src =
-                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
-              var i = document.getElementsByTagName("script")[0];
-              i.parentNode.insertBefore(o, i);
-            });
-        }
-      })();
-      drift.SNIPPET_VERSION = "0.3.1";
-      drift.load("patgpbphktxr");
-    </script>
-    <!-- End of Async Drift Code -->
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- fontawesome CSS -->
@@ -88,6 +35,48 @@
       type="image/png"
       sizes="16x16"
     />
+    <!--whats app widget start-->
+    <script>
+      var url =
+        "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?47682";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#4dc247",
+          ctaText: "",
+          borderRadius: "50",
+          marginLeft: "0",
+          marginBottom: "40",
+          marginRight: "30",
+          position: "right",
+        },
+        brandSetting: {
+          brandName: "UiDesignz",
+          brandSubTitle: "Typically replies within a day",
+          brandImg:
+            "https://www.uidesignz.com/assets/img/logos/widget-logo.svg",
+          welcomeText: "Hi there!\nHow can I help you?",
+          messageText:
+            "Hello! \n I have a question about your pricing and how long will it take to complete the service.",
+          backgroundColor: "#0a5f54",
+          ctaText: "Start Chat",
+          borderRadius: "25",
+          autoShow: false,
+          phoneNumber: "13235225370",
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
+
+    <!--whats app widget end-->
   </head>
 
   <body>
@@ -385,7 +374,7 @@
       <div class="container">
         <div class="section-title mt-5 mb-5 w-100">
           <h2 class="w-100 text-center mt-0 mb-0">
-            The benefits of working <br />
+            THE BENEFITS OF WORKING WITH US <br />
             with us
           </h2>
         </div>
